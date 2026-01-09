@@ -1,6 +1,6 @@
 ---
+layout: default
 title: Home
-permalink: /
 ---
 
 <!-- About Me Section -->
