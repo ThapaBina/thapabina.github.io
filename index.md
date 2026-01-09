@@ -1,5 +1,9 @@
-<a id="home"></a>
+---
+layout: default
+title: Bina Thapa
+---
 
+<!-- Profile Section -->
 <div class="profile">
 
   <img src="{{ '/assets/images/BinaThapa_Profile.jpg' | relative_url }}" alt="Bina Thapa" class="profile-pic">
@@ -28,5 +32,32 @@
     </p>
 
   </div>
-
 </div>
+
+<hr>
+
+<!-- Research Section -->
+<a id="research"></a>
+
+<h2>Research</h2>
+
+<h3>Research Interests</h3>
+<ul>
+  <li>Forest remote sensing</li>
+  <li>Species identification using hyperspectral data</li>
+  <li>Phenology monitoring</li>
+  <li>Disturbance detection and assessment</li>
+</ul>
+
+<h3>Ongoing Projects</h3>
+<ul>
+  <li>Mapping forest species composition using hyperspectral imagery</li>
+  <li>LiDAR-based forest structure characterization</li>
+  <li>Multi-sensor data fusion for ecosystem monitoring</li>
+</ul>
+
+<h3>Selected Publications</h3>
+<ul>
+  <li>Author(s). <strong>Title of paper.</strong> <em>Journal</em>, Year.</li>
+  <li>Author(s). <strong>Title of paper.</strong> <em>Journal</em>, Year.</li>
+</ul>
