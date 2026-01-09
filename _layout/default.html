@@ -1,1 +1,9 @@
+<link rel="stylesheet" href="https://unpkg.com/beerslider/dist/BeerSlider.css">
 
+<script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('.beer-slider')
+    .forEach(el => new BeerSlider(el));
+});
+</script>
