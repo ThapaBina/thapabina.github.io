@@ -1,10 +1,8 @@
 markdown
 
 ---
-title: "Home"
+title: Home
 permalink: /
-layout: default
-nav_order: 1
 ---
 
 <!-- About Me Section -->
