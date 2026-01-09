@@ -1,74 +1,56 @@
 ---
 layout: default
-title: Home
+title: Bina Thapa
 ---
 
-<!-- About Me Section -->
-<style>
-.container {
-  display: flex;
-  align-items: flex-start;
-  gap: 30px;
-  flex-wrap: wrap;
-  max-width: 900px;
-  margin: 40px auto;
-  line-height: 1.6;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-}
+<a id="home"></a>
 
-.container img {
-  border-radius: 8px;
-  max-width: 200px;
-}
+<div class="profile">
 
-.text {
-  flex: 1;
-  min-width: 300px;
-}
+<img src="assets/profile.jpg" alt="Bina Thapa" class="profile-pic">
 
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
+<div class="profile-text">
 
-a:hover {
-  text-decoration: underline;
-}
+<h1>Bina Thapa</h1>
 
-.name {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-</style>
+<p>
+I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems. My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment.
+</p>
 
-<div class="container">
-  <!-- Left column: profile image -->
-  <div>
-    <img src="https://github.com/user-attachments/assets/70865b96-d6c6-4101-9b26-8b1bc5892dba" alt="Bina Thapa">
-  </div>
+<p>
+Currently, I am working under the supervision of Dr. Songlin Fei and Dr. Brady S. Hardiman.
+</p>
 
-  <!-- Right column: text -->
-  <div class="text">
-    <div class="name">Bina Thapa</div>
-    
-    <p>
-      I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems. My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment. I aim to advance our understanding of forest ecosystem dynamics and to develop methods that enhance forest monitoring and characterization.
-    </p>
+<p>
+<strong>Research Focus:</strong> Species identification, phenology monitoring, disturbance assessment<br>
+<strong>Methodologies:</strong> Multispectral, hyperspectral, LiDAR analysis, algorithm development
+</p>
 
-    <p>
-      Currently, I am working under the supervision of 
-      <a href="https://web.ics.purdue.edu/~sfei/feiS.php" target="_blank">Dr. Songlin Fei</a> and 
-      <a href="https://www.purdue.edu/fnr/sites/hardiman/" target="_blank">Dr. Brady S. Hardiman</a>.
-    </p>
+<p>
+<a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+&nbsp;|&nbsp;
+<a href="#research">Research</a>
+</p>
 
-    <p>
-      <strong>Research Focus:</strong> Species identification, phenology monitoring, disturbance assessment<br>
-      <strong>Methodologies:</strong> Multispectral, hyperspectral, LiDAR analysis, algorithm development
-    </p>
-
-    <p>
-      <a href="https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en" target="_blank">Google Scholar</a>
-    </p>
-  </div>
 </div>
+</div>
+
+<hr>
+
+<a id="research"></a>
+
+<h2>Research</h2>
+
+<h3>Research Interests</h3>
+<ul>
+  <li>Forest remote sensing</li>
+  <li>Species identification using hyperspectral data</li>
+  <li>Phenology monitoring</li>
+  <li>Disturbance detection and assessment</li>
+</ul>
+
+<h3>Ongoing Projects</h3>
+<ul>
+  <li>Hyperspectral species mapping</li>
+  <li>LiDAR-based forest structure analysis</li>
+</ul>
