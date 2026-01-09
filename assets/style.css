@@ -1,5 +1,6 @@
 .profile {
   display: flex;
+  flex-wrap: wrap; /* makes it responsive */
   align-items: flex-start;
   gap: 40px;
   max-width: 900px;
@@ -15,7 +16,8 @@
 }
 
 .profile-text {
-  max-width: 600px;
+  flex: 1; /* take remaining space */
+  min-width: 300px;
 }
 
 .profile-text a {
