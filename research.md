@@ -14,9 +14,9 @@ This project investigates spatial and temporal patterns of flower color using th
 
 
 <div class="beer-slider" data-beer-label="Before">
-  <img src="/assets/images/FCI_RGB.jpg" alt="RGB">
+  <img src="/assets/images/Jacaranda_RGB.jpg" alt="RGB">
   <div class="beer-reveal" data-beer-label="After">
-    <img src="/assets/images/FCI_Purple.jpg" alt="FCI-Purple">
+    <img src="/assets/images/Jacaranda_FCI.jpg" alt="FCI-Purple">
   </div>
 </div>
 
