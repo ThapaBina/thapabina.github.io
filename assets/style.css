@@ -1,0 +1,9 @@
+.profile-text a {
+  color: #1a73e8;          /* Google Scholar blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profile-text a:hover {
+  text-decoration: underline;
+}
