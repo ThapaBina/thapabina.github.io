@@ -1,2 +1,7 @@
-title: ""
-theme: jekyll-theme-minimal
+title: Bina Thapa
+description: Remote Sensing | Ecology | GIS
+
+# Top navigation tabs
+header_pages:
+  - index.md
+  - research.md
