@@ -1,12 +1,13 @@
 <header>
   <nav>
     <ul>
-      {% for page_name in site.config.header_pages %}
-        {% assign page = site.pages | where_exp: "item", "item.path == page_name" | first %}
+      {% assign header_titles = "Home,Research" | split: "," %}
+      {% for title in header_titles %}
+        {% assign page = site.pages | where: "title", title | first %}
         {% if page %}
           <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
         {% else %}
-          <li><em>Page not found: {{ page_name }}</em></li>
+          <li><em>Page not found: {{ title }}</em></li>
         {% endif %}
       {% endfor %}
     </ul>
