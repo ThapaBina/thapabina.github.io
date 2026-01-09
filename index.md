@@ -7,7 +7,7 @@ title: Bina Thapa
 
 <div class="profile">
 
-<img src="assets/profile.jpg" alt="Bina Thapa" class="profile-pic">
+<img src="assets/images/BinaThapa_Profile.jpg" alt="Bina Thapa" class="profile-pic">
 
 <div class="profile-text">
 
@@ -27,7 +27,7 @@ Currently, I am working under the supervision of Dr. Songlin Fei and Dr. Brady S
 </p>
 
 <p>
-<a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+<a href="https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en" target="_blank">Google Scholar</a>
 &nbsp;|&nbsp;
 <a href="#research">Research</a>
 </p>
