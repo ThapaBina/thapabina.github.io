@@ -3,5 +3,5 @@ description: Remote Sensing | Ecology | GIS
 
 # Top navigation tabs
 header_pages:
-  - index.html
+  - index.md
   - research.md
