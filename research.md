@@ -13,9 +13,9 @@ My research focuses on applying remote sensing and spatial analysis to understan
 This project investigates spatial and temporal patterns of flower color using the **Flower Color Index (FCI)** derived from satellite imagery. The approach enables large-scale monitoring of flowering phenology and vegetation characteristics.
 
 <div class="beer-slider" data-beer-label="Before">
-  <img src="/assets/images/fci_before.jpg" alt="FCI Before">
+  <img src="/assets/images/Jacaranda_RGB.jpg" alt="RGB">
   <div class="beer-reveal" data-beer-label="After">
-    <img src="/assets/images/fci_after.jpg" alt="FCI After">
+    <img src="/assets/images/Jacaranda_FCI.jpg" alt="FCI-Purple">
   </div>
 </div>
 
