@@ -3,13 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Main CSS -->
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 
-  <!-- Smooth scrolling -->
   <style>
     html {
       scroll-behavior: smooth;
@@ -19,26 +16,9 @@
 
 <body>
 
-  <!-- ================= NAVIGATION ================= -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="#home" class="nav-link">Home</a>
-      <a href="#research" class="nav-link">Research</a>
-      <!-- Add later if needed -->
-      <!-- <a href="#teaching" class="nav-link">Teaching</a> -->
-      <!-- <a href="#publications" class="nav-link">Publications</a> -->
-    </div>
-  </nav>
-
-  <!-- ================= MAIN CONTENT ================= -->
   <main>
     {{ content }}
   </main>
-
-  <!-- ================= FOOTER ================= -->
-  <footer class="footer">
-    <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
-  </footer>
 
 </body>
 </html>
