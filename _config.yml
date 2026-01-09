@@ -1,7 +1,2 @@
+theme: minima
 title: Bina Thapa
-description: Remote Sensing | Ecology | GIS
-
-# Top navigation tabs
-header_pages:
-  - index.md
-  - research.md
