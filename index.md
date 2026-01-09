@@ -1,19 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Bina Thapa</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; max-width: 900px; margin: 40px auto; line-height: 1.6; }
-    .container { display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap; }
-    .container img { border-radius: 8px; max-width: 200px; }
-    .text { flex: 1; min-width: 300px; }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .name { font-size: 1.5em; font-weight: bold; margin-bottom: 10px; }
-  </style>
-</head>
-<body>
+---
+layout: default
+title: Home
+---
+
+<!-- About Me Section -->
+<style>
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 40px auto;
+  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.container img {
+  border-radius: 8px;
+  max-width: 200px;
+}
+
+.text {
+  flex: 1;
+  min-width: 300px;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+</style>
 
 <div class="container">
   <!-- Left column: profile image -->
@@ -45,6 +72,3 @@
     </p>
   </div>
 </div>
-
-</body>
-</html>
