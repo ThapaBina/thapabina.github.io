@@ -1,36 +1,28 @@
-# =====================================================
+# ===========================
 # Site settings
-# =====================================================
+# ===========================
 title: "Bina Thapa"
+email: your-email@example.com
 description: >-
   Postdoctoral researcher specializing in remote sensing of forest ecosystems.
+baseurl: ""                     # the subpath of your site, e.g. /blog
+url: "https://thapabina.github.io"  # your GitHub Pages URL
 
-url: "https://thapabina.github.io"
-baseurl: ""
-
-# =====================================================
+# ===========================
 # Build settings
-# =====================================================
+# ===========================
 markdown: kramdown
 highlighter: rouge
+theme: minimal-mistakes-jekyll
 
-# =====================================================
-# Theme (GitHub Pages compatible)
-# =====================================================
-remote_theme: mmistakes/minimal-mistakes
-
-# =====================================================
-# Plugins (REQUIRED)
-# =====================================================
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-include-cache
 
-# =====================================================
-# Author profile (sidebar)
-# =====================================================
+# ===========================
+# Author info
+# ===========================
 author:
   name: "Bina Thapa"
   avatar: "/assets/images/BinaThapa_Profile.jpg"
@@ -38,38 +30,53 @@ author:
   location: "Purdue University"
   links:
     - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=s5t-GKgAAAAJ"
     - label: "Research"
       url: "/research/"
     - label: "Teaching"
       url: "/teaching/"
+    - label: "Publications"
+      url: "/publications/"
 
-# =====================================================
-# Defaults
-# =====================================================
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+# ===========================
+# Navigation
+# ===========================
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Publications"
+    url: "/publications/"
 
-# =====================================================
-# Appearance
-# =====================================================
+# ===========================
+# Minimal Mistakes settings
+# ===========================
 minimal_mistakes_skin: "default"
+minimal_mistakes_light_skin: "default"
+minimal_mistakes_dark_skin: "dark"
 
-# =====================================================
-# Permalinks
-# =====================================================
-permalink: pretty
+# ===========================
+# Pagination
+# ===========================
+paginate: 5
+paginate_path: "/page:num/"
 
-# =====================================================
-# Files to exclude
-# =====================================================
+# ===========================
+# Excludes
+# ===========================
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+
+# ===========================
+# Permalinks
+# ===========================
+permalink: pretty
+
+# Enable GitHub Pages safe mode
+safe: true
