@@ -1,1 +1,32 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css"
+/>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 
+<div
+  id="slider-{{ include.id }}"
+  style="max-width: 900px; margin: 2em auto;"
+></div>
+
+<script>
+new juxtapose.JXSlider(
+  '#slider-{{ include.id }}',
+  [
+    {
+      src: '{{ "/assets/images/" | append: include.before | relative_url }}',
+      label: '{{ include.before_label }}'
+    },
+    {
+      src: '{{ "/assets/images/" | append: include.after | relative_url }}',
+      label: '{{ include.after_label }}'
+    }
+  ],
+  {
+    animate: true,
+    showLabels: true,
+    showCredits: false,
+    startingPosition: "50%"
+  }
+);
+</script>
