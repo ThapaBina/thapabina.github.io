@@ -1,17 +1,17 @@
 title: "Bina Thapa"
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: default
+description: "Postdoctoral Researcher | Remote Sensing | Forest Ecology"
 
-author:
-  name: "Bina Thapa"
-  avatar: "/assets/images/BinaThapa_Profile.jpg"
-  bio: "Postdoctoral Researcher | Remote Sensing | Forest Ecology"
-  location: "Purdue University"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: default
 
 plugins:
   - jekyll-include-cache
 
-# Top navigation tabs
+author:
+  name: "Bina Thapa"
+  avatar: "/assets/images/BinaThapa_Profile.jpg"
+  bio: "Postdoctoral Researcher at Purdue University"
+
 navigation:
   main:
     - title: "Home"
