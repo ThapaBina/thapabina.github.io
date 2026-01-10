@@ -1,31 +1,22 @@
-/* =====================================================
-   Custom SCSS for Bina Thapa GitHub Page
-   ===================================================== */
-
-/* =====================================================
-   Homepage Two-Column Profile Layout
-   ===================================================== */
-.home-profile-container {
-  max-width: 1000px;   /* limits width */
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
+/* Custom homepage two-column layout */
 
 .home-profile {
-  display: flex !important;
-  gap: 2rem !important;
-  align-items: flex-start !important;
-  flex-wrap: wrap !important;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 2rem auto;
 }
 
 .home-profile-image img {
-  max-width: 220px !important;
-  width: 100% !important;
-  border-radius: 6px !important;
+  max-width: 220px;
+  width: 100%;
+  border-radius: 6px;
 }
 
 .home-profile-text {
-  flex: 1 !important;
+  flex: 1;
 }
 
 .home-profile-text h1 {
@@ -34,7 +25,6 @@
 
 .home-profile-links {
   margin-top: 1rem;
-  font-weight: 500;
 }
 
 .home-profile-links a {
@@ -46,28 +36,16 @@
   text-decoration: underline;
 }
 
-/* =====================================================
-   Horizontal Rule Styling
-   ===================================================== */
-hr {
-  border: 0;
-  height: 1px;
-  background-color: #ccc;
-  margin: 2rem 0;
-}
-
-/* =====================================================
-   Mobile responsiveness
-   ===================================================== */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
   .home-profile {
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .home-profile-image img {
-    max-width: 180px !important;
+    max-width: 180px;
     margin-bottom: 1rem;
   }
 }
