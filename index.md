@@ -54,6 +54,8 @@ title: Home
   </div>
 
   <div class="profile-text">
+    <p> <strong> Bina Thapa </strong>
+    </p>
     <p>
       I am a <strong>postdoctoral researcher at Purdue University</strong> specializing in the remote sensing of forested ecosystems.
       My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment.
