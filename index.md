@@ -44,28 +44,3 @@ author_profile: false
 
   </div>
 </div>
-
-<hr>
-
-<h2>Research</h2>
-
-<h3>Research Interests</h3>
-<ul>
-  <li>Forest remote sensing</li>
-  <li>Species identification using hyperspectral data</li>
-  <li>Phenology monitoring</li>
-  <li>Disturbance detection and assessment</li>
-</ul>
-
-<h3>Ongoing Projects</h3>
-<ul>
-  <li>Mapping forest species composition using hyperspectral imagery</li>
-  <li>LiDAR-based forest structure characterization</li>
-  <li>Multi-sensor data fusion for ecosystem monitoring</li>
-</ul>
-
-<h3>Selected Publications</h3>
-<ul>
-  <li>Author(s). <strong>Title of paper.</strong> <em>Journal</em>, Year.</li>
-  <li>Author(s). <strong>Title of paper.</strong> <em>Journal</em>, Year.</li>
-</ul>
