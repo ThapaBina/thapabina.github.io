@@ -1,34 +1,76 @@
-.profile {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin-top: 2rem;
+/* =====================================================
+   Main SCSS for Bina Thapa GitHub Page
+   ===================================================== */
+
+/* --- Import Minimal Mistakes default styles --- */
+@import "minimal-mistakes";
+
+/* =====================================================
+   Homepage Two-Column Profile Layout
+   ===================================================== */
+.home-profile-container {
+  max-width: 1000px;   /* limits width, centers content */
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
-.profile-pic {
-  max-width: 220px;
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
+.home-profile {
+  display: flex !important;       /* enforce flex layout */
+  flex-wrap: wrap !important;     /* allows stacking on mobile */
+  gap: 2rem !important;
+  align-items: flex-start !important;
 }
 
-.profile-text {
-  flex: 1;
+.home-profile-image img {
+  max-width: 220px !important;
+  width: 100% !important;
+  border-radius: 6px !important;
 }
 
-.profile-text h1 {
+.home-profile-text {
+  flex: 1 !important;
+}
+
+.home-profile-text h1 {
   margin-top: 0;
 }
 
+.home-profile-links {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.home-profile-links a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.home-profile-links a:hover {
+  text-decoration: underline;
+}
+
+/* =====================================================
+   Optional: Horizontal Rule Styling
+   ===================================================== */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 2rem 0;
+}
+
+/* =====================================================
+   Mobile responsiveness
+   ===================================================== */
 @media (max-width: 768px) {
-  .profile {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  .home-profile {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
   }
 
-  .profile-pic {
-    max-width: 180px;
+  .home-profile-image img {
+    max-width: 180px !important;
     margin-bottom: 1rem;
   }
 }
