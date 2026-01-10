@@ -1,43 +1,24 @@
-# Site settings
 title: "Bina Thapa"
-description: "Postdoctoral researcher specializing in remote sensing of forest ecosystems."
-baseurl: ""
-url: "https://thapabina.github.io"
 theme: minimal-mistakes-jekyll
-markdown: kramdown
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+minimal_mistakes_skin: default
 
 author:
   name: "Bina Thapa"
   avatar: "/assets/images/BinaThapa_Profile.jpg"
-  bio: "Postdoctoral researcher specializing in remote sensing of forest ecosystems."
+  bio: "Postdoctoral Researcher | Remote Sensing | Forest Ecology"
   location: "Purdue University"
-  links:
-    - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=s5t-GKgAAAAJ"
-    - label: "Research"
-      url: "/research/"
-    - label: "Teaching"
-      url: "/teaching/"
-    - label: "Publications"
-      url: "/publications/"
 
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Teaching"
-    url: "/teaching/"
-  - title: "Publications"
-    url: "/publications/"
+plugins:
+  - jekyll-include-cache
 
-minimal_mistakes_skin: "default"
-minimal_mistakes_light_skin: "default"
-minimal_mistakes_dark_skin: "dark"
-
-permalink: pretty
-safe: true
+# Top navigation tabs
+navigation:
+  main:
+    - title: "Home"
+      url: /
+    - title: "Research"
+      url: /research/
+    - title: "Teaching"
+      url: /teaching/
+    - title: "Google Scholar"
+      url: https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en
