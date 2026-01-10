@@ -2,23 +2,23 @@
    Main SCSS for Bina Thapa GitHub Page
    ===================================================== */
 
-/* --- Import Minimal Mistakes default styles --- */
+/* Import Minimal Mistakes default styles */
 @import "minimal-mistakes";
 
 /* =====================================================
    Homepage Two-Column Profile Layout
    ===================================================== */
 .home-profile-container {
-  max-width: 1000px;   /* limits width, centers content */
+  max-width: 1000px;   /* limits width */
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
 .home-profile {
-  display: flex !important;       /* enforce flex layout */
-  flex-wrap: wrap !important;     /* allows stacking on mobile */
+  display: flex !important;
   gap: 2rem !important;
   align-items: flex-start !important;
+  flex-wrap: wrap !important;
 }
 
 .home-profile-image img {
@@ -50,7 +50,7 @@
 }
 
 /* =====================================================
-   Optional: Horizontal Rule Styling
+   Horizontal Rule Styling
    ===================================================== */
 hr {
   border: 0;
