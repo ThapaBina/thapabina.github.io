@@ -1,9 +1,10 @@
 ---
 layout: single
-title: Research
+title: Research Projects
 permalink: /research/
 ---
 ## 🌸 Flower Color Index (FCI) {#fci}
+We developed the Flower Color Index (FCI) using four spectral bands.
 
 {% include slider.html
   id="fci"
@@ -16,6 +17,7 @@ permalink: /research/
 ---
 
 ## 🌲 Species Mapping with PlanetScope {#planet}
+This project focuses on high-resolution species mapping using PlanetScope imagery.
 
 {% include slider.html
   id="planet"
@@ -28,6 +30,7 @@ permalink: /research/
 ---
 
 ## 🌎 Regional-Scale Species Mapping with Landsat {#landsat}
+We mapped species at regional-scale using multi-temporal Landsat imagery.
 
 {% include slider.html
   id="landsat"
