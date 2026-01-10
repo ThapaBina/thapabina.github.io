@@ -7,10 +7,16 @@ minimal_mistakes_skin: default
 plugins:
   - jekyll-include-cache
 
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
 author:
   name: "Bina Thapa"
   avatar: "/assets/images/BinaThapa_Profile.jpg"
   bio: "Postdoctoral Researcher at Purdue University"
+  links: []   # removes Follow tab
 
 navigation:
   main:
