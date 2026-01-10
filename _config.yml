@@ -1,7 +1,19 @@
+# Site settings
 title: "Bina Thapa"
+url: "https://thapabina.github.io"  # your GitHub Pages URL
+baseurl: ""                         # empty because site is at root
 
-#remote_theme: mmistakes/minimal-mistakes
+# Theme
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
+# Plugins
 plugins:
   - jekyll-include-cache
+
+# Optional: ignore files that GitHub Pages doesn't need to build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
