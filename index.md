@@ -32,7 +32,7 @@ title: Home
 
 /* Name styling */
 .profile-name {
-  font-size: 2.2em;  /* bigger font */
+  font-size: 2.0em;  /* bigger font */
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -70,18 +70,12 @@ title: Home
     <p class="profile-name">Bina Thapa</p>
 
     <p>
-      I am a <strong>postdoctoral researcher at Purdue University</strong> specializing in the remote sensing of forested ecosystems.
+      I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems.
       My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment.
     </p>
 
     <p>
       I aim to advance our understanding of forest ecosystem dynamics and to develop methods that enhance forest monitoring and characterization.
-    </p>
-
-    <p>
-      Currently, I am working under the supervision of
-      <a href="https://web.ics.purdue.edu/~sfei/feiS.php" target="_blank">Dr. Songlin Fei</a> and
-      <a href="https://www.purdue.edu/fnr/sites/hardiman/" target="_blank">Dr. Brady S. Hardiman</a>.
     </p>
 
     <p>
