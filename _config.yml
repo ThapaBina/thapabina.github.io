@@ -1,2 +1,68 @@
-theme: minima
-title: Bina Thapa
+# Site settings
+title: "Bina Thapa"
+email: your-email@example.com      # Replace with your email or remove if not needed
+description: >-                   # Site description for SEO
+  Postdoctoral researcher specializing in remote sensing of forest ecosystems.
+
+baseurl: ""                       # the subpath of your site, e.g. /blog
+url: "https://thapabina.github.io"  # your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+theme: minimal-mistakes-jekyll    # Your theme
+
+plugins:
+  - jekyll-feed                   # For RSS feed
+  - jekyll-seo-tag                # For SEO tags
+  - jekyll-sitemap                # Sitemap generator
+
+# Author info
+author:
+  name: "Bina Thapa"
+  avatar: "/assets/images/BinaThapa_Profile.jpg"  # Path to profile image
+  bio: "Postdoctoral researcher specializing in remote sensing of forest ecosystems."
+  location: "Purdue University"
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=XXXXXX"  # Replace with your Google Scholar link
+    - label: "Research"
+      url: "/research/"
+    - label: "Teaching"
+      url: "/teaching/"
+    - label: "Publications"
+      url: "/publications/"
+
+# Navigation (top nav bar)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Publications"
+    url: "/publications/"
+
+# Minimal Mistakes settings (optional customization)
+minimal_mistakes_skin: "default"
+minimal_mistakes_light_skin: "default"
+minimal_mistakes_dark_skin: "dark"
+
+# Pagination (if needed)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Excludes (files/folders to ignore)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Permalinks
+permalink: pretty
+
+# Enable GitHub Pages safe mode
+safe: true
