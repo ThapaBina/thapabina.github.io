@@ -10,7 +10,7 @@ permalink: /research/
 
 <div class="project-card">
 <h3>🌸 Flower Color Index (FCI)</h3>
-<p>Flowering phenology detection using spectral indices.</p>
+<p>Tracking flowering phenology using spectral indices derived from high-resolution imagery.</p>
 <a href="#fci">View Project ↓</a>
 </div>
 
@@ -22,7 +22,7 @@ permalink: /research/
 
 <div class="project-card">
 <h3>🌎 Regional-Scale Species Mapping with Landsat</h3>
-<p>Regional species mapping using Landsat time series.</p>
+<p>Large-area species mapping using Landsat time-series data.</p>
 <a href="#landsat">View Project ↓</a>
 </div>
 
@@ -34,10 +34,10 @@ permalink: /research/
 
 {% include slider.html
   id="fci"
-  before="/assets/img/projects/fci_before.jpg"
-  after="/assets/img/projects/fci_after.jpg"
-  before_label="Pre-flowering"
-  after_label="Peak flowering"
+  before="Jacaranda_RGB.jpg"
+  after="Jacaranda_FCI.jpg"
+  before_label="RGB Image"
+  after_label="Flower Color Index (FCI)"
 %}
 
 ---
@@ -46,8 +46,8 @@ permalink: /research/
 
 {% include slider.html
   id="planet"
-  before="/assets/img/projects/planet_before.jpg"
-  after="/assets/img/projects/planet_after.jpg"
+  before="planet_before.jpg"      # Replace with actual image filename when available
+  after="planet_after.jpg"        # Replace with actual image filename when available
   before_label="Raw imagery"
   after_label="Species classification"
 %}
@@ -58,8 +58,8 @@ permalink: /research/
 
 {% include slider.html
   id="landsat"
-  before="/assets/img/projects/landsat_before.jpg"
-  after="/assets/img/projects/landsat_after.jpg"
+  before="landsat_before.jpg"     # Replace with actual image filename when available
+  after="landsat_after.jpg"       # Replace with actual image filename when available
   before_label="Baseline"
   after_label="Final species map"
 %}
