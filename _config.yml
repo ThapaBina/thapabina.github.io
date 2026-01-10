@@ -1,41 +1,41 @@
 # Site settings
 title: "Bina Thapa"
-email: your-email@example.com      # Replace with your email or remove if not needed
-description: >-                   # Site description for SEO
+description: >-
   Postdoctoral researcher specializing in remote sensing of forest ecosystems.
 
-baseurl: ""                       # the subpath of your site, e.g. /blog
-url: "https://thapabina.github.io"  # your GitHub Pages URL
+url: "https://thapabina.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 
-theme: minimal-mistakes-jekyll    # Your theme
+# ✅ Use Minimal Mistakes as a REMOTE theme
+remote_theme: mmistakes/minimal-mistakes
 
+# ✅ Required plugins for GitHub Pages + Minimal Mistakes
 plugins:
-  - jekyll-feed                   # For RSS feed
-  - jekyll-seo-tag                # For SEO tags
-  - jekyll-sitemap                # Sitemap generator
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 # Author info
 author:
   name: "Bina Thapa"
-  avatar: "/assets/images/BinaThapa_Profile.jpg"  # Path to profile image
+  avatar: "/assets/images/BinaThapa_Profile.jpg"
   bio: "Postdoctoral researcher specializing in remote sensing of forest ecosystems."
   location: "Purdue University"
   links:
     - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=XXXXXX"  # Replace with your Google Scholar link
+      url: "https://scholar.google.com/citations?user=XXXXXX"
     - label: "Research"
       url: "/research/"
     - label: "Teaching"
       url: "/teaching/"
-    - label: "Publications"
-      url: "/publications/"
 
-# Navigation (top nav bar)
-nav:
+# ✅ Navigation for Minimal Mistakes
+navigation:
   - title: "Home"
     url: "/"
   - title: "Research"
@@ -45,24 +45,23 @@ nav:
   - title: "Publications"
     url: "/publications/"
 
-# Minimal Mistakes settings (optional customization)
+# Minimal Mistakes appearance
 minimal_mistakes_skin: "default"
-minimal_mistakes_light_skin: "default"
-minimal_mistakes_dark_skin: "dark"
 
-# Pagination (if needed)
-paginate: 5
-paginate_path: "/page:num/"
+# Page defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
 
-# Excludes (files/folders to ignore)
+# Permalinks
+permalink: pretty
+
+# Excludes
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-
-# Permalinks
-permalink: pretty
-
-# Enable GitHub Pages safe mode
-safe: true
