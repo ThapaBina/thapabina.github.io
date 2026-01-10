@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: single
 title: Bina Thapa
+permalink: /
+author_profile: true
 ---
 
 <!-- Profile Section -->
