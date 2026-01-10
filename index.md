@@ -4,65 +4,73 @@ title: Home
 ---
 
 <style>
-  .profile-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    flex-wrap: wrap;
-    max-width: 900px;
-    margin: 40px auto;
-  }
+/* Container for photo + text */
+.profile-container {
+  display: flex;
+  align-items: center; /* vertical alignment */
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 40px auto;
+}
 
-  .profile-image {
-    flex: 0 0 200px;
-  }
+/* Profile image */
+.profile-image {
+  flex: 0 0 200px;
+}
 
-  .profile-image img {
-    width: 200px;
-    border-radius: 8px;
-  }
-  
-  .profile-name {
-  font-size: 2em;    /* adjust as needed */
-  font-weight: bold;  /* keeps it strong */
-  margin-bottom: 15px; /* spacing below the name */
-  }
+.profile-image img {
+  width: 200px;
+  border-radius: 8px;
+}
 
-  .profile-text {
-    flex: 1;
-    min-width: 300px;
-  }
+/* Text next to image */
+.profile-text {
+  flex: 1;
+  min-width: 300px;
+}
 
-  .tabs {
-    max-width: 900px;
-    margin: 40px auto 0 auto;
-    display: flex;
-    gap: 20px;
-  }
+/* Name styling */
+.profile-name {
+  font-size: 2.2em;  /* bigger font */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
 
-  .tabs a {
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color: #0366d6;
-    color: white;
-    border-radius: 5px;
-    font-weight: 600;
-  }
+/* Bottom tabs */
+.tabs {
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  gap: 20px;
+}
 
-  .tabs a:hover {
-    background-color: #024ea2;
-  }
+.tabs a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #0366d6;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.tabs a:hover {
+  background-color: #024ea2;
+}
 </style>
 
 <div class="profile-container">
+  <!-- Left: profile photo -->
   <div class="profile-image">
     <img src="/assets/images/BinaThapa_Profile.jpg" alt="Bina Thapa Profile Picture" />
   </div>
 
+  <!-- Right: text content -->
   <div class="profile-text">
-    <p class="profile-name">Bina Thapa </p>
+    <p class="profile-name">Bina Thapa</p>
+
     <p>
-      I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems.
+      I am a <strong>postdoctoral researcher at Purdue University</strong> specializing in the remote sensing of forested ecosystems.
       My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment.
     </p>
 
@@ -83,6 +91,7 @@ title: Home
   </div>
 </div>
 
+<!-- Bottom tabs -->
 <div class="tabs">
   <a href="/research/">Research</a>
   <a href="/teaching/">Teaching</a>
