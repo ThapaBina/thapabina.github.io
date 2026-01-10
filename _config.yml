@@ -61,5 +61,5 @@ exclude:
 # Permalinks
 permalink: pretty
 
-# Safe mode (GitHub Pages requirement)
+# Enable safe mode for GitHub Pages
 safe: true
