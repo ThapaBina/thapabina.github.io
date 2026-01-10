@@ -1,149 +1,42 @@
----
-# Only the main Sass file needs front matter
----
-
-/* Import Minimal Mistakes */
-@import "minimal-mistakes";
-
 /* =====================================================
-   Global styles
+   STEP 2: Homepage left–right profile layout
    ===================================================== */
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #333;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  color: #1a1a1a;
-}
-
-h1 {
-  margin-top: 1.5rem;
-}
-
-h2 {
-  border-bottom: 2px solid #e5e5e5;
-  padding-bottom: 0.3rem;
+.profile {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
   margin-top: 2rem;
 }
 
-/* Links */
-a {
-  color: #0056b3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* =====================================================
-   Page content
-   ===================================================== */
-
-.page__content {
-  font-size: 1rem;
-}
-
-/* Lists */
-.page__content ul {
-  margin-left: 1.2rem;
-}
-
-.page__content li {
-  margin-bottom: 0.4rem;
-}
-
-/* =====================================================
-   Author profile (sidebar)
-   ===================================================== */
-
-.author__avatar img {
-  border-radius: 50%;
-  max-width: 160px;
-}
-
-.author__content {
-  text-align: center;
-}
-
-.author__bio {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-/* =====================================================
-   Navigation
-   ===================================================== */
-
-.greedy-nav {
-  background: #ffffff;
-  border-bottom: 1px solid #eaeaea;
-}
-
-.greedy-nav a {
-  font-weight: 500;
-}
-
-/* =====================================================
-   Slider styles (for _includes/slider.html)
-   ===================================================== */
-
-.slider {
-  position: relative;
+/* Profile image (left) */
+.profile-pic {
+  max-width: 220px;
   width: 100%;
-  max-width: 100%;
-  margin: 1.5rem auto 2rem auto;
-  overflow: hidden;
+  height: auto;
   border-radius: 6px;
 }
 
-.slider img {
-  width: 100%;
-  height: auto;
-  display: block;
+/* Text content (right) */
+.profile-text {
+  flex: 1;
 }
 
-/* Caption inside slider */
-.slider-caption {
-  position: absolute;
-  bottom: 15px;
-  left: 20px;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 8px 12px;
-  font-size: 0.9rem;
-  border-radius: 4px;
+/* Headline spacing */
+.profile-text h1 {
+  margin-top: 0;
 }
 
-/* =====================================================
-   Teaching / Research pages
-   ===================================================== */
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-.course-list strong {
-  color: #000;
-}
-
-.section {
-  margin-bottom: 2rem;
-}
-
-/* =====================================================
-   Footer
-   ===================================================== */
-
-.page__footer {
-  background: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
-  font-size: 0.85rem;
-  color: #666;
-}
-
-.page__footer a {
-  color: #444;
+  .profile-pic {
+    max-width: 180px;
+    margin-bottom: 1rem;
+  }
 }
