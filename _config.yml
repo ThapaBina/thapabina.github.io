@@ -5,20 +5,3 @@ minimal_mistakes_skin: default
 
 plugins:
   - jekyll-include-cache
-
-author:
-  name: "Bina Thapa"
-  avatar: "/assets/images/BinaThapa_Profile.jpg"
-  bio: "Postdoctoral Researcher at Purdue University"
-  links: []
-
-navigation:
-  main:
-    - title: "Home"
-      url: /
-    - title: "Research"
-      url: /research/
-    - title: "Teaching"
-      url: /teaching/
-    - title: "Google Scholar"
-      url: https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en
