@@ -1,14 +1,9 @@
 title: "Bina Thapa"
+baseurl: ""
+url: "https://thapabina.github.io"
 
 #remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
 plugins:
   - jekyll-include-cache
-
-defaults:
-  - scope:
-      path: "_pages"
-    values:
-      layout: default
-      permalink: "/:basename/"
