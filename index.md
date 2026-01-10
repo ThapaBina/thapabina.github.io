@@ -48,8 +48,8 @@ title: Home
 .tabs a {
   padding: 8px 15px;        /*smaller tabs */
   text-decoration: none;
-  background-color: black;   /*black background */
-  color: gold;               /*gold text */
+  background-color: #36352e;   /*black background */
+  color: #f1e5ab;               /*gold text */
   border-radius: 5px;
   font-weight: 600;
 }
