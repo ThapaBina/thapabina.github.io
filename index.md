@@ -46,17 +46,19 @@ title: Home
 }
 
 .tabs a {
-  padding: 10px 20px;
+  padding: 8px 15px;        /*smaller tabs */
   text-decoration: none;
-  background-color: #0366d6;
-  color: white;
+  background-color: black;   /*black background */
+  color: gold;               /*gold text */
   border-radius: 5px;
   font-weight: 600;
 }
 
 .tabs a:hover {
-  background-color: #024ea2;
+  background-color: #333333;   /* slightly lighter black on hover */
+  color: #FFD700;              /* bright gold on hover */
 }
+
 </style>
 
 <div class="profile-container">
