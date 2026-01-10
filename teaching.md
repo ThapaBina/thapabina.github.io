@@ -23,5 +23,3 @@ permalink: /teaching/
 - Workshop: "LiDAR Data Processing for Forest Monitoring" (2024)
 
 ---
-
-Feel free to customize the list of courses, workshops, and other teaching activities.
