@@ -5,13 +5,16 @@ permalink: /
 author_profile: false
 ---
 
-<div class="profile">
+<div class="home-profile">
 
-  <img src="{{ '/assets/images/BinaThapa_Profile.jpg' | relative_url }}"
-       alt="Bina Thapa"
-       class="profile-pic">
+  <!-- Left: Profile Image -->
+  <div class="home-profile-image">
+    <img src="{{ '/assets/images/BinaThapa_Profile.jpg' | relative_url }}"
+         alt="Bina Thapa">
+  </div>
 
-  <div class="profile-text">
+  <!-- Right: Text Content -->
+  <div class="home-profile-text">
 
     <h1>Bina Thapa</h1>
 
@@ -30,17 +33,16 @@ author_profile: false
       <strong>Methodologies:</strong> Multispectral, hyperspectral, LiDAR analysis, algorithm development
     </p>
 
-    <p>
-      <a href="https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-        Google Scholar
-      </a>
+    <!-- Links -->
+    <div class="home-profile-links">
+      <a href="https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en" target="_blank">Google Scholar</a>
       &nbsp;|&nbsp;
       <a href="/research/">Research</a>
       &nbsp;|&nbsp;
       <a href="/teaching/">Teaching</a>
       &nbsp;|&nbsp;
       <a href="/publications/">Publications</a>
-    </p>
+    </div>
 
   </div>
 </div>
