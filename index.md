@@ -2,20 +2,23 @@
 layout: single
 title: Bina Thapa
 permalink: /
-author_profile: true
+author_profile: false
 ---
 
-<!-- Profile Section -->
 <div class="profile">
 
-  <img src="{{ '/assets/images/BinaThapa_Profile.jpg' | relative_url }}" alt="Bina Thapa" class="profile-pic">
+  <img src="{{ '/assets/images/BinaThapa_Profile.jpg' | relative_url }}"
+       alt="Bina Thapa"
+       class="profile-pic">
 
   <div class="profile-text">
 
     <h1>Bina Thapa</h1>
 
     <p>
-      I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems. My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment.
+      I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems.
+      My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes,
+      including species identification, phenology monitoring, and disturbance assessment.
     </p>
 
     <p>
@@ -28,18 +31,21 @@ author_profile: true
     </p>
 
     <p>
-      <a href="https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?user=s5t-GKgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+        Google Scholar
+      </a>
       &nbsp;|&nbsp;
-      <a href="#research">Research</a>
+      <a href="/research/">Research</a>
+      &nbsp;|&nbsp;
+      <a href="/teaching/">Teaching</a>
+      &nbsp;|&nbsp;
+      <a href="/publications/">Publications</a>
     </p>
 
   </div>
 </div>
 
 <hr>
-
-<!-- Research Section -->
-<a id="research"></a>
 
 <h2>Research</h2>
 
