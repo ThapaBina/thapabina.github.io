@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: full-width
 title: Bina Thapa
 permalink: /
 author_profile: false
