@@ -28,6 +28,7 @@ title: Home
 .profile-text {
   flex: 1;
   min-width: 300px;
+  margin-top:0; /*remove any top margin */
 }
 
 /* Name styling */
