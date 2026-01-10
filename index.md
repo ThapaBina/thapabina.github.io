@@ -21,6 +21,12 @@ title: Home
     width: 200px;
     border-radius: 8px;
   }
+  
+  .profile-name {
+  font-size: 2em;    /* adjust as needed */
+  font-weight: bold;  /* keeps it strong */
+  margin-bottom: 15px; /* spacing below the name */
+  }
 
   .profile-text {
     flex: 1;
@@ -56,7 +62,7 @@ title: Home
   <div class="profile-text">
     <p class="profile-name">Bina Thapa </p>
     <p>
-      I am a <strong>postdoctoral researcher at Purdue University</strong> specializing in the remote sensing of forested ecosystems.
+      I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems.
       My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment.
     </p>
 
