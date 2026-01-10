@@ -39,3 +39,7 @@ We mapped species at regional-scale using multi-temporal Landsat imagery.
   before_label="Baseline"
   after_label="Final species map"
 %}
+
+---
+[← Back to Home](/)
+
