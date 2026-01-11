@@ -133,11 +133,18 @@ permalink: /research/
 </div>
 
 <!-- Figure Section -->
-
-<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; align-items: flex-start; gap: 20px;">
+<div style="
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  align-items: stretch; /* stretch panels to equal height */
+  gap: 20px;
+  min-height: 600px; /* optional: ensures a minimum height */
+">
 
   <!-- Left panel: two stacked static images -->
-  <div style="flex: 0 0 45%; display: flex; flex-direction: column; gap: 20px;">
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: center; gap: 20px;">
 
     <!-- Image A -->
     <figure style="margin: 0; text-align: center;">
@@ -162,7 +169,7 @@ permalink: /research/
   </div>
 
   <!-- Right panel: two stacked clickable images with zoom hover -->
-  <div style="flex: 0 0 50%; display: flex; flex-direction: column; gap: 20px;">
+  <div style="flex: 0 0 50%; display: flex; flex-direction: column; justify-content: center; gap: 20px;">
 
     <!-- Image C -->
     <figure style="margin: 0; text-align: center; position: relative;">
@@ -171,9 +178,18 @@ permalink: /research/
              alt="Tree species distribution in Cook County, Illinois"
              style="display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
         <span style="
-          position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px;
-          border-radius: 3px; font-size: 1.2em; cursor: pointer; opacity: 0;
-          transition: opacity 0.2s; ">🔍</span>
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          background: rgba(0,0,0,0.6);
+          color: white;
+          padding: 4px 6px;
+          border-radius: 3px;
+          font-size: 1.2em;
+          cursor: pointer;
+          opacity: 0;
+          transition: opacity 0.2s;
+        ">🔍</span>
       </a>
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
         (c) Urban tree species distribution in Cook County, Illinois.
@@ -187,8 +203,15 @@ permalink: /research/
              alt="Tree species distribution in DuPage County, Illinois"
              style="display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
         <span style="
-          position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white;
-          padding: 4px 6px; border-radius: 3px; font-size: 1.2em; cursor: pointer;
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          background: rgba(0,0,0,0.6);
+          color: white;
+          padding: 4px 6px;
+          border-radius: 3px;
+          font-size: 1.2em;
+          cursor: pointer;
           opacity: 0;
           transition: opacity 0.2s;
         ">🔍</span>
@@ -213,7 +236,7 @@ permalink: /research/
 <!-- Publications Section -->
 <h4 class="pub-heading">Publication</h4>
 <div class="publication-list">
-  Thapa, B., L. Daring, D. H. Choi, C. M. Ardohain, A. Firoze, D. G. Aliaga, B. S. Hardiman, S. Fei (2024). Application of multi-temporal satellite iamgery for urban tree species identification. <em>Urban Forestry & Urban Greening</em>, 98, 128409.
+  Thapa, B.,Daring, L., Choi, D. H., Ardohain, C. M., Firoze, A., Aliaga, D. G., Hardiman, B. S., Fei, S. (2024). Application of multi-temporal satellite iamgery for urban tree species identification. <em>Urban Forestry & Urban Greening</em>, 98, 128409.
   <a href="https://doi.org/10.1016/j.ufug.2024.128409" target="_blank" rel="noopener noreferrer">
     DOI
   </a>
