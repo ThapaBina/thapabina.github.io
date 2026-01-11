@@ -4,7 +4,9 @@ title: Research Projects
 permalink: /research/
 ---
 ## 🌸 Flower Color Index (FCI) {#fci}
+<div class = "research-text">
 Flowers provide substantial ecological and economic benefits, yet their detection and monitoring using remote sensing remain challenging and underexplored. In this study, we introduce the <strong>Flower Color Index (FCI) </strong>, which leverages remote sensing bands sensitive to major flower color pigments—<strong>carotenoids, anthocyanins, and betalains</strong>—to detect four dominant warm flower colors: <strong>red, pink, purple, and yellow</strong>. These pigments primarily influence reflectance in the visible spectrum, enabling FCI to be derived from <strong>widely available blue (B), green (G), red (R), and near-infrared (NIR) bands</strong> across platforms ranging from UAVs to satellites. We demonstrate the application of FCI across species representing diverse vegetation forms (herbaceous plants, shrubs, and trees) and across multiple study locations—including global biodiversity hotspots—using imagery at multiple spatial resolutions (<strong>SkySat, 0.5 m; PlanetScope, 3 m; and Landsat, 30 m</strong>). Results show that FCI effectively detects and quantifies flowering events, supporting applications in ecology (e.g., flowering phenology, species identification, and biodiversity conservation), agriculture (e.g., pollination management and yield estimation), and ecotourism (e.g., cherry blossom festivals). Its simple formulation enables rapid computation and consistent performance across environments, spatial scales, and background conditions.
+</div>
 
 <!-- Container for the two panels -->
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch; padding: 0;">
@@ -130,18 +132,19 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
 
 
 <!-- Publications Section -->
-<div style="width: 80%; margin: 20px auto 40px auto; text-align: left; font-family: Arial, sans-serif;font-size: 0.9em;">
+<div class="publication-list">
+  <h4 class="pub-heading">Publication</h4>
 
-  <h3 style="margin-bottom: 10px;">Publication</h3>
-
-  <ol style="padding-left: 20px; margin: 0; line-height: 1.5;">
+  <ol>
     <li>
-      Thapa, B., Hardiman, B. S., & Fei, S. (2025). Flower color index for detecting and monitoring warm-colored flowering across scales. International Journal of Applied Earth Observation and Geoinformation, 145, 104978. 
+      Thapa, B., Hardiman, B. S., & Fei, S. (2025).
+      Flower color index for detecting and monitoring warm-colored flowering across scales.
+      <em>International Journal of Applied Earth Observation and Geoinformation</em>, 145, 104978.
       <a href="https://www.sciencedirect.com/science/article/pii/S1569843225006259" target="_blank">Link</a>
     </li>
   </ol>
-
 </div>
+
 
 
 ---
