@@ -132,32 +132,80 @@ permalink: /research/
   </p>
 </div>
 
-<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; align-items: flex-start;">
+<!-- Figure Section -->
 
-  <div style="flex: 0 0 45%; display: flex; flex-direction: column;">
+<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; align-items: flex-start; gap: 20px;">
 
-    <figure style="margin: 0 0 20px 0; text-align: center;">
-      <img src="assets/images/MultiTemporal_Imagery.jpg" alt="Multi-temporal PlanetScope imagery" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
-      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(a) PlanetScope images capturing leaf phenology.</figcaption>
+  <!-- Left panel: two stacked static images -->
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column; gap: 20px;">
+
+    <!-- Image A -->
+    <figure style="margin: 0; text-align: center;">
+      <img src="{{ site.baseurl }}/assets/images/MultiTemporal_Imagery.jpg"
+           alt="Multi-temporal PlanetScope imagery"
+           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (a) PlanetScope images capturing leaf phenology.
+      </figcaption>
     </figure>
 
-    <figure style="margin: 0 0 20px 0; text-align: center;">
-      <img src="assets/images/TreeSpecies.jpg" alt="Urban tree species samples" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
-      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(b) Tree species identification (PlanetScope imagery + LiDAR Crown).</figcaption>
+    <!-- Image B -->
+    <figure style="margin: 0; text-align: center;">
+      <img src="{{ site.baseurl }}/assets/images/TreeSpecies.jpg"
+           alt="Urban tree species samples"
+           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (b) Tree species identification (PlanetScope imagery + LiDAR Crown).
+      </figcaption>
     </figure>
 
   </div>
 
-  <div style="flex: 0 0 50%;">
+  <!-- Right panel: single clickable image with zoom hover -->
+  <div style="flex: 0 0 50%; display: flex; flex-direction: column; gap: 20px;">
 
-    <figure style="margin: 0; text-align: center;">
-      <img src="assets/images/Cook_IL_Species.jpg" alt="Tree species distribution in Cook County, Illinois" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
-      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(c) Urban tree species distribution in Cook County, Illinois.</figcaption>
+    <figure style="margin: 0; text-align: center; position: relative;">
+
+      <!-- Clickable image -->
+      <a href="{{ site.baseurl }}/assets/images/Cook_IL_Species.jpg" target="_blank" style="display: block; position: relative; width: 100%;">
+        <img src="{{ site.baseurl }}/assets/images/Cook_IL_Species.jpg"
+             alt="Tree species distribution in Cook County, Illinois"
+             style="display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
+
+        <!-- Zoom icon overlay -->
+        <span style="
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          background: rgba(0,0,0,0.6);
+          color: white;
+          padding: 4px 6px;
+          border-radius: 3px;
+          font-size: 1.2em;
+          cursor: pointer;
+          opacity: 0;
+          transition: opacity 0.2s;
+        ">🔍</span>
+      </a>
+
+      <!-- Caption -->
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (c) Urban tree species distribution in Cook County, Illinois.
+      </figcaption>
+      
     </figure>
 
   </div>
 
 </div>
+
+<!-- Optional: small inline JS/CSS to show zoom icon on hover -->
+<style>
+  figure a:hover span {
+    opacity: 1;
+  }
+</style>
+
 
 
 <!-- Publications Section -->
