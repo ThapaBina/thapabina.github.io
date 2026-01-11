@@ -7,41 +7,42 @@ permalink: /research/
 Flowers provide substantial ecological and economic benefits, yet their detection and monitoring using remote sensing remain challenging and underexplored. In this study, we introduce the <strong>Flower Color Index (FCI) </strong>, which leverages remote sensing bands sensitive to major flower color pigments—<strong>carotenoids, anthocyanins, and betalains</strong>—to detect four dominant warm flower colors: <strong>red, pink, purple, and yellow</strong>. These pigments primarily influence reflectance in the visible spectrum, enabling FCI to be derived from <strong>widely available blue (B), green (G), red (R), and near-infrared (NIR) bands</strong> across platforms ranging from UAVs to satellites. We demonstrate the application of FCI across species representing diverse vegetation forms (herbaceous plants, shrubs, and trees) and across multiple study locations—including global biodiversity hotspots—using imagery at multiple spatial resolutions (<strong>SkySat, 0.5 m; PlanetScope, 3 m; and Landsat, 30 m</strong>). Results show that FCI effectively detects and quantifies flowering events, supporting applications in ecology (e.g., flowering phenology, species identification, and biodiversity conservation), agriculture (e.g., pollination management and yield estimation), and ecotourism (e.g., cherry blossom festivals). Its simple formulation enables rapid computation and consistent performance across environments, spatial scales, and background conditions.
 
 <!-- Container for the two panels -->
-<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch;">
+<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch; padding-top: 0;">
 
-  <!-- Panel 1: Study Area (45%) -->
-  <figure style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box; position: relative;">
+  <!-- Panel 1: Study Area -->
+  <figure style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: left; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
 
-    <!-- Image wrapper -->
-    <div style="width: 100%; display: flex; justify-content: center; align-items: center; position: relative; margin: 0; padding: 0;">
-      
+    <!-- Image wrapper with relative positioning -->
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0; position: relative;">
+
       <!-- Image link -->
       <a href="{{ site.baseurl }}/assets/images/FCI_StudyArea.png" target="_blank" 
-         style="display: block; position: relative; width: 100%; margin: 0; padding: 0;">
-        
+         style="display: inline-block; position: relative; margin: 0; padding: 0;">
+
         <!-- Image -->
         <img src="{{ site.baseurl }}/assets/images/FCI_StudyArea.png"
              alt="Global study areas and flower spectra used to evaluate the Flower Color Index"
-             style="display: block; width: 100%; height: auto; object-fit: contain; margin: 0; padding: 0;">
+             style="max-width: 100%; height: auto; object-fit: contain; display: block; margin: 0; padding: 0;">
 
         <!-- Zoom icon overlay -->
         <span class="zoom-icon" 
-              style="position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px; border-radius: 3px; font-size: 1.2em; cursor: pointer; opacity: 0; transition: opacity 0.2s; z-index: 10;">
+              style="position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px; border-radius: 3px; font-size: 1em; cursor: pointer; opacity: 0; transition: opacity 0.2s; z-index: 10;">
           🔍
         </span>
 
       </a>
+
     </div>
 
-    <!-- Caption directly below image -->
+    <!-- Caption -->
     <figcaption style="font-size: 0.9em; font-style: italic; line-height: 1.3; margin-top: 2px; margin-bottom: 0; padding: 0;">
-      Geographic locations of study areas across the globe spanning northern and southern hemispheres (United States, a biodiversity hotspot from North America; the Atlantic Forest of Brazil, a biodiversity hotspot, and Paraguay from South America; Holland, the largest tulip bulb producer in the world from Europe; Nepal, a biodiversity hotspot from Asia; urban forests from Africa and Australia) and species (California’s wildflowers, Pleroma, pink trumpet, tulip, rhododendron, and jacaranda) used in the study and spectra of respective flowers. Flowering sample polygons were used to extract flower spectral reflectance across bands corresponding to satellite imagery acquired during the bloom; the number and types of bands (coastal blue [C], blue [B], green [G], red [R], near-infrared [NIR], shortwave infrared 1 [S1], and shortwave infrared 2 [S2]) varied among satellite sensors (SkySat [0.5 m; 4 bands], PlanetScope [3 m; 4 bands], and Landsat [30 m; 7 bands]). Each line shows the mean surface reflectance ± one standard deviation across spectral bands. Dashed, solid, and dotted lines represent SkySat, PlanetScope, and Landsat data.
+      Geographic locations of study areas across the globe spanning northern and southern hemispheres (United States, a biodiversity hotspot from North America; the Atlantic Forest of Brazil, a biodiversity hotspot, and Paraguay from South America; Holland, the largest tulip bulb producer in the world from Europe; Nepal, a biodiversity hotspot from Asia; urban forests from Africa and Australia) and species (California’s wildflowers, Pleroma, pink trumpet, tulip, rhododendron, and jacaranda) used in the study (a) and spectra of respective flowers (b). Flowering sample polygons were used to extract flower spectral reflectance across bands corresponding to satellite imagery acquired during the bloom; the number and types of bands (coastal blue [C], blue [B], green [G], red [R], near-infrared [NIR], shortwave infrared 1 [S1], and shortwave infrared 2 [S2]) varied among satellite sensors (SkySat [0.5 m; 4 bands], PlanetScope [3 m; 4 bands], and Landsat [30 m; 7 bands]). Each line shows the mean surface reflectance (Y-axis) ± one standard deviation across spectral bands (X-axis). Dashed, solid, and dotted lines represent SkySat, PlanetScope, and Landsat data, respectively.
     </figcaption>
 
   </figure>
 
-  <!-- Panel 2: Slider (55%) -->
-  <figure style="flex: 0 0 55%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
+  <!-- Panel 2: Slider -->
+  <figure style="flex: 0 0 55%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: left; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
 
     <!-- Slider wrapper -->
     <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0; position: relative;">
@@ -63,15 +64,11 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
 
 </div>
 
-<!-- CSS for hover zoom icon -->
+<!-- CSS block for hover zoom icon -->
 <style>
+  /* Show zoom icon when hovering over the image link */
   figure a:hover .zoom-icon {
     opacity: 1;
-  }
-
-  /* Optional: make cursor pointer for image */
-  figure a {
-    cursor: zoom-in;
   }
 </style>
 
