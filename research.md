@@ -143,8 +143,6 @@ permalink: /research/
   <a href="#">Link</a>
 </div>
 
-
-
 ---
 
 ## 🌲 Species Mapping with PlanetScope {#planet}
