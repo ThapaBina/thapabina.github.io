@@ -76,12 +76,11 @@
    Research page typography & layout
    =============================== */
 .project-text-box {
-  width: 80vw !important;              /* 80% of viewport width */
+  width: 50vw !important;              /* 80% of viewport width */
   max-width: 1000px;        /* prevents over-stretching on large screens */
-  margin: 30px auto;
-  padding: 20px 25px;
-  background-color: red !important; /*#f8f9fa */
-  border: 5px solid yellow !important;
+  margin: 30px 30px;
+  padding: 20x 20px;
+  background-color: #f8f9fa; 
   border-left: 5px solid #2c7be5;
   border-radius: 6px;
   font-size: 1rem;
