@@ -5,9 +5,10 @@ permalink: /teaching/
 ---
 ### Courses Taught
 
-- **Remote Sensing of Forest Ecosystems**  
-- **Introduction to GIS and Spatial Analysis**  
-- **Environmental Data Science**
+<div style="text-align: left; margin: 20px 0;">
+  <strong style="font-style: italic; color: #555;">Details are coming soon!</strong>
+</div>
+
 
 ---
 [← Back to Home](/)
