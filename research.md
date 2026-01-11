@@ -51,10 +51,10 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
 
 
   <!-- Panel 2: Slider (40%) -->
-  <figure style="flex: 0 0 55%; display: flex; flex-direction: column; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
+  <figure style="flex: 0 0 55%; display: flex; flex-direction: column;justify-content: center; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
 
     <!-- Slider wrapper -->
-    <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0;">
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0; position:relative;">
       {% include slider.html
         id="fci"
         before="Jacaranda_RGB.jpg"
@@ -65,7 +65,7 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
     </div>
 
     <!-- Caption -->
-    <figcaption style="font-size: 0.9em; font-style: italic; line-height: 1.3; margin-top: 2px; margin-bottom: 0; padding: 0;">
+    <figcaption style="font-size: 0.9em; font-style: italic; line-height: 1.3; margin-top: 1px; margin-bottom: 0; padding: 0;">
       Comparison between the original RGB image and the Flower Color Index (FCI) result for a jacaranda tree.
     </figcaption>
 
