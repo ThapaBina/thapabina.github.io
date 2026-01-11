@@ -76,8 +76,13 @@
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 24px;  /* Optional side padding */
+  padding-left: 24px;
   padding-right: 24px;
+}
+
+.research-container h2 {
+  margin-top: 0;
+  font-size: 1.5em; /* adjust size as needed */
 }
 
 .research-text {
@@ -86,6 +91,8 @@
   font-size: 1.05em;
   line-height: 1.7;
   color: #222;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
