@@ -49,3 +49,44 @@
     margin-bottom: 1rem;
   }
 }
+
+
+/* Research / Publications styling */
+.pub-heading {
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.publication-list {
+  max-width: 800px;
+  margin: 20px auto 40px auto;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Research page typography & layout
+   =============================== */
+
+/* Main research text */
+.research-text {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #222;
+}
+
+/* Slightly soften bold text */
+.research-text strong {
+  font-weight: 600;
+}
+
+/* Center figures consistently */
+.research-figures {
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+}
