@@ -10,7 +10,7 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 30px; align-items: stretch; padding-top:0;">
 
   <!-- Panel 1: Study Area (45%) -->
-  <figure style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 3px; box-sizing: border-box; position: relative;">
+  <figure style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 3px; box-sizing: border-box; position: relative;">
 
     <!-- Image wrapper -->
     <div style="width: 100%; display: flex; justify-content: center; align-items: center; position: relative; margin: 0; padding: 0;">
@@ -41,7 +41,7 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
   </figure>
 
   <!-- Panel 2: Slider (55%) -->
-  <figure style="flex: 0 0 55%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 3px; box-sizing: border-box;">
+  <figure style="flex: 0 0 55%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 3px; box-sizing: border-box;">
 
     <!-- Slider wrapper -->
     <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0; position: relative;">
@@ -56,7 +56,7 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
 
     <!-- Caption -->
     <figcaption style="font-size: 0.9em; font-style: italic; line-height: 1.3; margin-top: -1px; margin-bottom: 0; padding: 0;">
-      Comparison between the original RGB image and the Flower Color Index (FCI) result for a jacaranda tree.
+      Illustration of Flower Color Index (FCI)-Purple to detect Jacarand flowering with overlaying RGB imagery.
     </figcaption>
 
   </figure>
