@@ -135,18 +135,16 @@ permalink: /research/
 
 
 <!-- Publications Section -->
-<div class="publication-list">
-  <h4 class="pub-heading">Publication</h4>
+<h4 class="pub-heading">Publication</h4>
 
-  <ol>
-    <li>
-      Thapa, B., Hardiman, B. S., & Fei, S. (2025).
-      Flower color index for detecting and monitoring warm-colored flowering across scales.
-      <em>International Journal of Applied Earth Observation and Geoinformation</em>, 145, 104978.
-      <a href="https://www.sciencedirect.com/science/article/pii/S1569843225006259" target="_blank">Link</a>
-    </li>
-  </ol>
-</div>
+<ol class="publication-list">
+  <li>
+    Thapa, B., Hardiman, B. S., & Fei, S. (2025).
+    <em>Flower color index for detecting and monitoring warm-colored flowering across scales.</em>
+    International Journal of Applied Earth Observation and Geoinformation, 145, 104978.
+    <a href="#">Link</a>
+  </li>
+</ol>
 
 
 
