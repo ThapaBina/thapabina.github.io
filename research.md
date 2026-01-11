@@ -132,50 +132,35 @@ permalink: /research/
   </p>
 </div>
 
-<!-- Container for the two panels -->
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: flex-start;">
 
-  <!-- Left panel: two stacked images -->
   <div style="flex: 0 0 45%; display: flex; flex-direction: column; gap: 20px;">
 
-    <!-- Image A -->
     <figure style="margin: 0; text-align: center;">
-      <img src="assets/images/MultiTemporal_Imagery.jpg" 
-           alt="Multi-temporal PlanetScope imagery"
-           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
-      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
-        (a) PlanetScope images capturing leaf phenology.
-      </figcaption>
+      <img src="assets/images/MultiTemporal_Imagery.jpg" alt="Multi-temporal PlanetScope imagery" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(a) PlanetScope images capturing leaf phenology.</figcaption>
     </figure>
 
-    <!-- Image B -->
     <figure style="margin: 0; text-align: center;">
-      <img src="assets/images/TreeSpecies.jpg" 
-           alt="Urban tree species samples"
-           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
-      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
-        (b) Tree species identification (PlanetScope imagery + LiDAR Crown).
-      </figcaption>
+      <img src="assets/images/TreeSpecies.jpg" alt="Urban tree species samples" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(b) Tree species identification (PlanetScope imagery + LiDAR Crown).</figcaption>
     </figure>
 
   </div>
 
-  <!-- Right panel: single image -->
   <div style="flex: 0 0 50%; display: flex; flex-direction: column; gap: 20px;">
 
-    <!-- Image C -->
     <figure style="margin: 0; text-align: center;">
-      <img src="assets/images/Cook_IL_Species.jpg" 
-           alt="Tree species distribution in Cook County, Illinois"
-           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
-      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
-        (c) Urban tree species distribution in Cook County, Illinois.
-      </figcaption>
+      <img src="assets/images/Cook_IL_Species.jpg" alt="Tree species distribution in Cook County, Illinois" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(c) Urban tree species distribution in Cook County, Illinois.</figcaption>
     </figure>
 
   </div>
 
 </div>
+
+
+
 
 
 <!-- Publications Section -->
