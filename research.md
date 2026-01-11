@@ -3,18 +3,12 @@ layout: single
 title: Research Projects
 permalink: /research/
 ---
-<div class="research-container style="margin-top:40px;">
+<div class="research-container" style="margin-top:40px;">
   <div class="research-box">
     <h2>🌸 Flower Color Index (FCI)</h2>
 
     <div class="research-text">
       Flowers provide substantial ecological and economic benefits, yet their detection and monitoring using remote sensing remain challenging and underexplored. In this study, we introduce the <strong>Flower Color Index (FCI)</strong>, which leverages remote sensing bands sensitive to major flower color pigments—<strong>carotenoids, anthocyanins, and betalains</strong>—to detect four dominant warm flower colors: <strong>red, pink, purple, and yellow</strong>.
-
-      These pigments primarily influence reflectance in the visible spectrum, enabling FCI to be derived from <strong>widely available blue (B), green (G), red (R), and near-infrared (NIR) bands</strong> across platforms ranging from UAVs to satellites.
-
-      We demonstrate the application of FCI across species representing diverse vegetation forms (herbaceous plants, shrubs, and trees) and across multiple study locations—including global biodiversity hotspots—using imagery at multiple spatial resolutions (<strong>SkySat, 0.5 m; PlanetScope, 3 m; and Landsat, 30 m</strong>).
-
-      Results show that FCI effectively detects and quantifies flowering events, supporting applications in ecology, agriculture, and ecotourism. Its simple formulation enables rapid computation and consistent performance across environments, spatial scales, and background conditions.
     </div>
   </div>
 </div>
