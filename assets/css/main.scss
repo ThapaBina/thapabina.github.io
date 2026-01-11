@@ -72,26 +72,22 @@
 /* ===============================
    Research page typography & layout
    =============================== */
-
-/* Main research text */
-/* ===============================
-   Research page typography & layout
-   =============================== */
-
-h2 + .research-text {
-  margin-top: 22px;
+.research-container {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;  /* Optional side padding */
+  padding-right: 24px;
 }
 
 .research-text {
-  max-width: 720px;
-  margin: 24px 24px 24px 24px;
-  padding-bottom: 70px; /*bottom padding */
+  margin-top: 22px;
+  padding-bottom: 70px;
   font-size: 1.05em;
   line-height: 1.7;
   color: #222;
 }
 
-.research-text strong {
-  font-weight: 600;
-}
+
+
 
