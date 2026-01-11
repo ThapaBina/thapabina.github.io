@@ -74,7 +74,7 @@ title: Home
 
     <p>
       I am a postdoctoral researcher at Purdue University specializing in the remote sensing of forested ecosystems.
-      My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, phenology monitoring, and disturbance assessment.
+      My research utilizes multispectral, hyperspectral, and LiDAR data to investigate forest ecosystem patterns and processes, including species identification, forest health assessment, phenology monitoring, and disturbance detection.
     </p>
 
     <p>
