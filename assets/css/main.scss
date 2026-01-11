@@ -62,14 +62,15 @@
   color: #444;
 }
 
-.publication-list ol{
-  list-style:none; /*remvoe nubmering*/
-  padding-left:0; /*remove indent */
+.publication-list {
+  list-style: none;   /* remove numbering */
+  padding-left: 0;    /* remove indent */
   max-width: 800px;
   margin: 20px auto 40px auto;
   font-size: 0.95em;
   line-height: 1.6;
 }
+
 
 /* ===============================
    Research page typography & layout
