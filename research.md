@@ -8,22 +8,27 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
 
 <!-- Container for the two panels -->
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch;">
+
 <!-- Panel 1: Study Area -->
 <figure style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
 
-  <!-- Image wrapper with relative positioning for zoom icon -->
+  <!-- Image wrapper with relative positioning -->
   <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0; position: relative;">
     
     <!-- Image link -->
-    <a href="{{ site.baseurl }}/assets/images/FCI_StudyArea.png" target="_blank" style="display: inline-block; position: relative; margin: 0; padding: 0;">
+    <a href="{{ site.baseurl }}/assets/images/FCI_StudyArea.png" target="_blank" 
+       style="display: inline-block; position: relative; margin: 0; padding: 0;">
+      
+      <!-- Image -->
       <img src="{{ site.baseurl }}/assets/images/FCI_StudyArea.png"
            alt="Global study areas and flower spectra used to evaluate the Flower Color Index"
            style="max-width: 100%; height: auto; object-fit: contain; display: block; margin: 0; padding: 0;">
 
-      <!-- Zoom icon overlay (hidden by default, shown on hover) -->
-      <span class="zoom-icon" style="position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px; border-radius: 3px; font-size: 0.9em; cursor: pointer; opacity: 0; transition: opacity 0.2s;">
+      <!-- Zoom icon overlay -->
+      <span class="zoom-icon" style="position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px; border-radius: 3px; font-size: 1em; cursor: pointer; opacity: 0; transition: opacity 0.2s; z-index: 10;">
         🔍
       </span>
+
     </a>
 
   </div>
@@ -35,20 +40,21 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
 
 </figure>
 
-<!-- Add this CSS block to enable hover effect -->
+<!-- CSS block for hover zoom icon -->
 <style>
-  /* Show zoom icon on hover */
+  /* Show zoom icon when hovering over the image link */
   figure a:hover .zoom-icon {
     opacity: 1;
   }
 </style>
 
 
+
   <!-- Panel 2: Slider (40%) -->
   <figure style="flex: 0 0 55%; display: flex; flex-direction: column; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
 
     <!-- Slider wrapper -->
-    <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%;">
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0;">
       {% include slider.html
         id="fci"
         before="Jacaranda_RGB.jpg"
@@ -59,7 +65,7 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
     </div>
 
     <!-- Caption -->
-    <figcaption style="font-size: 0.9em; font-style: italic; line-height: 1.3; margin-top: 4px; margin-bottom: 0; padding: 0;">
+    <figcaption style="font-size: 0.9em; font-style: italic; line-height: 1.3; margin-top: 2px; margin-bottom: 0; padding: 0;">
       Comparison between the original RGB image and the Flower Color Index (FCI) result for a jacaranda tree.
     </figcaption>
 
