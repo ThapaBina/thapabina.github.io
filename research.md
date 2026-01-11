@@ -3,7 +3,7 @@ layout: single
 title: Research Projects
 permalink: /research/
 ---
-<div class="research-container">
+<div class="research-container style="margin-top:40px;">
   <div class="research-box">
     <h2>🌸 Flower Color Index (FCI)</h2>
 
