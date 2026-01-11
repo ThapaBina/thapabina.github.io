@@ -13,11 +13,16 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
   <figure style="flex: 0 0 45%; display: flex; flex-direction: column;justify-content:center; /*vertically center figure+caption */; align-items: center; text-align: center; margin: 0; border: 1px solid #ccc; border-radius: 5px; padding: 5px; box-sizing: border-box;">
 
     <!-- Image wrapper to center the image -->
-    <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%;">
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; width: 100%; margin: 0; padding: 0;">
       <a href="{{ site.baseurl }}/assets/images/FCI_StudyArea.png" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; margin: 0; padding: 0;">
         <img src="{{ site.baseurl }}/assets/images/FCI_StudyArea.png"
              alt="Global study areas and flower spectra used to evaluate the Flower Color Index"
              style="max-width: 100%; max-height: 100%; object-fit: contain; display: block; margin: 0; padding: 0;">
+        <!-- Zoom icon overlay -->
+        <span style="position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px; border-radius: 3px; font-size: 0.9em; cursor: pointer;">
+          🔍
+        </span>
+
       </a>
     </div>
 
