@@ -16,20 +16,8 @@ permalink: /research/
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch; padding: 0;">
 
   <!-- Panel 1: Study Area (45%) -->
-  <figure style="
-    flex: 0 0 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0; /* Removed padding to reduce top/bottom space */
-    box-sizing: border-box;
-    position: relative;
-  ">
+  <figure style=" flex: 0 0 45%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin: 0;
+    border: 1px solid #ccc; border-radius: 5px; padding: 0; /* Removed padding to reduce top/bottom space */  box-sizing: border-box;  position: relative; ">
 
     <!-- Image wrapper -->
     <div style="
@@ -74,19 +62,8 @@ permalink: /research/
   </figure>
 
   <!-- Panel 2: Slider (55%) -->
-  <figure style="
-    flex: 0 0 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0; /* Removed padding to reduce white space */
-    box-sizing: border-box;
-  ">
+  <figure style=" flex: 0 0 55%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin: 0;
+    border: 1px solid #ccc; border-radius: 5px; padding: 0; /* Removed padding to reduce white space */ box-sizing: border-box; ">
 
     <!-- Slider wrapper -->
     <div style="
@@ -148,19 +125,68 @@ permalink: /research/
 
 ---
 
-## 🌲 Species Mapping with PlanetScope {#planet}
-This project focuses on high-resolution species mapping using PlanetScope imagery.
-<div style="text-align: left; margin: 20px 0;">
-  <strong style="font-style: italic; color: #555;">Details are coming soon!</strong>
+## 🌲 Urban Species Mapping Using High-Resolution Multi-Temporal PlanetScope Imagery {#planet}
+<div class="project-text-box" style="width: 98%; margin: 0 auto;">
+  <p>
+    Accurate tree inventories are critical for urban forest management but are challenging to obtain, as many urban trees are located on private property (e.g., backyards) and are therefore excluded from public inventories. Here, we examined the feasibility of tree species identification in a large, heterogeneous urban area (>850 km²) using multi-temporal PlanetScope imagery (3.2 m spatial resolution, multispectral) and inventory data from more than 20,000 ground observations within the urban forest of the Greater Chicago area. Our approach achieved an overall classification accuracy of 0.60 and 0.71 for 18 species and ten genera, respectively, with accuracies ranging from moderate to high for individual species (0.59–0.92) and genera (0.61–0.91). In particular, we identified key host tree species (<em>Fraxinus americana</em>, <em>F. pennsylvanica</em>, and <em>Acer saccharinum</em>) for two damaging invasive insects—emerald ash borer (EAB, <em>Agrilus planipennis</em>) and Asian longhorn beetle (ALB, <em>Anoplophora glabripennis</em>)—with accuracies exceeding 0.80. In addition, we demonstrated that including imagery from the autumn months (September–November), either in single-season models or combined multi-season models, improved identification accuracy for temperate deciduous trees. Furthermore, the superior classification performance of the support vector machine (SVM) compared to random forest (RF) and neural network (NN) approaches suggests that future work may benefit from evaluating multiple classifiers to identify methods that maximize species-level accuracy. Overall, our study demonstrates the potential of multi-temporal, high-resolution imagery for large-scale urban tree species classification and its applicability to urban forest management.
+  </p>
 </div>
 
-{% include slider.html
-  id="planet"
-  before="planet_before.jpg"
-  after="planet_after.jpg"
-  before_label="Raw imagery"
-  after_label="Species classification"
-%}
+<!-- Container for the two panels -->
+<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: flex-start;">
+
+  <!-- Left panel: two stacked images -->
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column; gap: 20px;">
+
+    <!-- Image A -->
+    <figure style="margin: 0; text-align: center;">
+      <img src="assets/images/MultiTemporal_Imagery.jpg" 
+           alt="Multi-temporal PlanetScope imagery"
+           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (a) PlanetScope images capturing leaf phenology.
+      </figcaption>
+    </figure>
+
+    <!-- Image B -->
+    <figure style="margin: 0; text-align: center;">
+      <img src="assets/images/TreeSpecies.jpg" 
+           alt="Urban tree species samples"
+           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (b) Tree species identification (PlanetScope imagery + LiDAR Crown).
+      </figcaption>
+    </figure>
+
+  </div>
+
+  <!-- Right panel: single image -->
+  <div style="flex: 0 0 50%; display: flex; flex-direction: column; gap: 20px;">
+
+    <!-- Image C -->
+    <figure style="margin: 0; text-align: center;">
+      <img src="assets/images/Cook_IL_Species.jpg" 
+           alt="Tree species distribution in Cook County, Illinois"
+           style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (c) Urban tree species distribution in Cook County, Illinois.
+      </figcaption>
+    </figure>
+
+  </div>
+
+</div>
+
+
+<!-- Publications Section -->
+<h4 class="pub-heading">Publication</h4>
+<div class="publication-list">
+  Thapa, B., L. Daring, D. H. Choi, C. M. Ardohain, A. Firoze, D. G. Aliaga, B. S. Hardiman, S. Fei (2024). Application of multi-temporal satellite iamgery for urban tree species identification. <em>Urban Forestry & Urban Greening</em>, 98, 128409.
+  <a href="https://doi.org/10.1016/j.ufug.2024.128409" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
+</div>
+
 
 ---
 
