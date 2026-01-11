@@ -128,14 +128,15 @@ Flowers provide substantial ecological and economic benefits, yet their detectio
   }
 </style>
 
+
 <!-- Publications Section -->
-<div style="width: 80%; margin: 20px auto 40px auto; text-align: left; font-family: Arial, sans-serif;">
+<div style="width: 80%; margin: 20px auto 40px auto; text-align: left; font-family: Arial, sans-serif;font-size: 0.9em;">
 
   <h3 style="margin-bottom: 10px;">Publication</h3>
 
   <ol style="padding-left: 20px; margin: 0; line-height: 1.5;">
     <li>
-      Thapa, B., et al. (2025). <strong>Flower Color Index (FCI): A multispectral approach to detect and quantify flowering events</strong>. *Remote Sensing of Environment*, 326, 115706. 
+      Thapa, B., Hardiman, B. S., & Fei, S. (2025). Flower color index for detecting and monitoring warm-colored flowering across scales. International Journal of Applied Earth Observation and Geoinformation, 145, 104978. 
       <a href="https://www.sciencedirect.com/science/article/pii/S1569843225006259" target="_blank">Link</a>
     </li>
   </ol>
