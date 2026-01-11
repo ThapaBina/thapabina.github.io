@@ -10,7 +10,6 @@ permalink: /research/
   </div>
 </div>
 
-
 <!-- Container for the two panels -->
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch; padding: 0;">
 
