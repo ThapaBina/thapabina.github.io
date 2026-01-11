@@ -161,51 +161,53 @@ permalink: /research/
 
   </div>
 
-  <!-- Right panel: single clickable image with zoom hover -->
+  <!-- Right panel: two stacked clickable images with zoom hover -->
   <div style="flex: 0 0 50%; display: flex; flex-direction: column; gap: 20px;">
 
+    <!-- Image C -->
     <figure style="margin: 0; text-align: center; position: relative;">
-
-      <!-- Clickable image -->
       <a href="{{ site.baseurl }}/assets/images/Cook_IL_Species.jpg" target="_blank" style="display: block; position: relative; width: 100%;">
         <img src="{{ site.baseurl }}/assets/images/Cook_IL_Species.jpg"
              alt="Tree species distribution in Cook County, Illinois"
              style="display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
-
-        <!-- Zoom icon overlay -->
         <span style="
-          position: absolute;
-          top: 8px;
-          right: 8px;
-          background: rgba(0,0,0,0.6);
-          color: white;
-          padding: 4px 6px;
-          border-radius: 3px;
-          font-size: 1.2em;
-          cursor: pointer;
+          position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px;
+          border-radius: 3px; font-size: 1.2em; cursor: pointer; opacity: 0;
+          transition: opacity 0.2s; ">🔍</span>
+      </a>
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (c) Urban tree species distribution in Cook County, Illinois.
+      </figcaption>
+    </figure>
+
+    <!-- Image D -->
+    <figure style="margin: 0; text-align: center; position: relative;">
+      <a href="{{ site.baseurl }}/assets/images/DuPage_IL_Species.jpg" target="_blank" style="display: block; position: relative; width: 100%;">
+        <img src="{{ site.baseurl }}/assets/images/DuPage_IL_Species.jpg"
+             alt="Tree species distribution in DuPage County, Illinois"
+             style="display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
+        <span style="
+          position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white;
+          padding: 4px 6px; border-radius: 3px; font-size: 1.2em; cursor: pointer;
           opacity: 0;
           transition: opacity 0.2s;
         ">🔍</span>
       </a>
-
-      <!-- Caption -->
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
-        (c) Urban tree species distribution in Cook County, Illinois.
+        (d) Urban tree species distribution in DuPage County, Illinois.
       </figcaption>
-      
     </figure>
 
   </div>
 
 </div>
 
-<!-- Optional: small inline JS/CSS to show zoom icon on hover -->
+<!-- Hover effect for zoom icons -->
 <style>
   figure a:hover span {
     opacity: 1;
   }
 </style>
-
 
 
 <!-- Publications Section -->
