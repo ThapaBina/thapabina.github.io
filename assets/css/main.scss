@@ -72,21 +72,28 @@
    =============================== */
 
 /* Main research text */
+/* ===============================
+   Research page typography & layout
+   =============================== */
+
+h2 + .research-text {
+  margin-top: 22px;
+}
+
 .research-text {
-  max-width: 800px;
-  margin: 0 auto 30px auto;
+  max-width: 720px;
+  margin: 24px auto 60px auto;
   font-size: 1.05em;
   line-height: 1.7;
   color: #222;
 }
 
-/* Slightly soften bold text */
 .research-text strong {
   font-weight: 600;
 }
 
-/* Center figures consistently */
 .research-figures {
   max-width: 1000px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 80px auto;
 }
+
