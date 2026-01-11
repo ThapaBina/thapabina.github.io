@@ -132,23 +132,23 @@ permalink: /research/
   </p>
 </div>
 
-<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: flex-start;">
+<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; align-items: flex-start;">
 
-  <div style="flex: 0 0 45%; display: flex; flex-direction: column; gap: 20px;">
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column;">
 
-    <figure style="margin: 0; text-align: center;">
+    <figure style="margin: 0 0 20px 0; text-align: center;">
       <img src="assets/images/MultiTemporal_Imagery.jpg" alt="Multi-temporal PlanetScope imagery" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(a) PlanetScope images capturing leaf phenology.</figcaption>
     </figure>
 
-    <figure style="margin: 0; text-align: center;">
+    <figure style="margin: 0 0 20px 0; text-align: center;">
       <img src="assets/images/TreeSpecies.jpg" alt="Urban tree species samples" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">(b) Tree species identification (PlanetScope imagery + LiDAR Crown).</figcaption>
     </figure>
 
   </div>
 
-  <div style="flex: 0 0 50%; display: flex; flex-direction: column; gap: 20px;">
+  <div style="flex: 0 0 50%;">
 
     <figure style="margin: 0; text-align: center;">
       <img src="assets/images/Cook_IL_Species.jpg" alt="Tree species distribution in Cook County, Illinois" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px;">
@@ -158,9 +158,6 @@ permalink: /research/
   </div>
 
 </div>
-
-
-
 
 
 <!-- Publications Section -->
