@@ -11,23 +11,13 @@ permalink: /research/
   </p>
 </div>
 
-<div style="width 97%; text-align: left; margin: 20px auto;">
+<div style="width 90%; text-align: left; margin: 20px auto;">
   <strong>
-    <em style="color: #555; font-size: 0.9em;">
+    <em style="color: #555; font-size: 0.8em;">
       The figures below show the global distribution of the study area and an example of FCI-purple detecting Jacaranda bloom in Africa.
     </em>
   </strong>
 </div>
-
-<!-- Publications Section -->
-<h4 class="pub-heading">Publication</h4>
-<div class="publication-list">
-  Thapa, B., Hardiman, B. S., & Fei, S. (2025). Flower color index for detecting and monitoring warm-colored flowering across scales. <em>International Journal of Applied Earth Observation and Geoinformation</em>, 145, 104978.
-  <a href="https://doi.org/10.1016/j.jag.2025.104978" target="_blank" rel="noopener noreferrer">
-    DOI
-  </a>
-</div>
-
 
 <!-- Container for the two panels -->
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch; padding: 0;">
@@ -100,6 +90,15 @@ permalink: /research/
 </style>
 
 
+<!-- Publications Section -->
+<h4 class="pub-heading">Publication</h4>
+<div class="publication-list">
+  Thapa, B., Hardiman, B. S., & Fei, S. (2025). Flower color index for detecting and monitoring warm-colored flowering across scales. <em>International Journal of Applied Earth Observation and Geoinformation</em>, 145, 104978.
+  <a href="https://doi.org/10.1016/j.jag.2025.104978" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
+</div>
+
 
 ---
 
@@ -110,14 +109,6 @@ permalink: /research/
   </p>
 </div>
 
-<!-- Publications Section -->
-<h4 class="pub-heading">Publication</h4>
-<div class="publication-list">
-  Thapa, B.,Daring, L., Choi, D. H., Ardohain, C. M., Firoze, A., Aliaga, D. G., Hardiman, B. S., Fei, S. (2024). Application of multi-temporal satellite iamgery for urban tree species identification. <em>Urban Forestry & Urban Greening</em>, 98, 128409.
-  <a href="https://doi.org/10.1016/j.ufug.2024.128409" target="_blank" rel="noopener noreferrer">
-    DOI
-  </a>
-</div>
 
 <!-- Figure Section -->
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; align-items: stretch; /* stretch panels to equal height */ gap: 20px; min-height: 600px; /* optional: ensures a minimum height */">
@@ -156,19 +147,8 @@ permalink: /research/
         <img src="{{ site.baseurl }}/assets/images/Cook_IL_Species.jpg"
              alt="Tree species distribution in Cook County, Illinois"
              style="display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
-        <span style="
-          position: absolute;
-          top: 8px;
-          right: 8px;
-          background: rgba(0,0,0,0.6);
-          color: white;
-          padding: 4px 6px;
-          border-radius: 3px;
-          font-size: 1.2em;
-          cursor: pointer;
-          opacity: 0;
-          transition: opacity 0.2s;
-        ">🔍</span>
+        <span style=" position: absolute; top: 8px; right: 8px;  background: rgba(0,0,0,0.6); color: white; padding: 4px 6px;
+          border-radius: 3px; font-size: 1.2em; cursor: pointer; opacity: 0; transition: opacity 0.2s; ">🔍</span>
       </a>
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
         (c) Urban tree species distribution in Cook County, Illinois.
@@ -181,19 +161,8 @@ permalink: /research/
         <img src="{{ site.baseurl }}/assets/images/DuPage_IL_Species.jpg"
              alt="Tree species distribution in DuPage County, Illinois"
              style="display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain;">
-        <span style="
-          position: absolute;
-          top: 8px;
-          right: 8px;
-          background: rgba(0,0,0,0.6);
-          color: white;
-          padding: 4px 6px;
-          border-radius: 3px;
-          font-size: 1.2em;
-          cursor: pointer;
-          opacity: 0;
-          transition: opacity 0.2s;
-        ">🔍</span>
+        <span style=" position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px; border-radius: 3px;
+          font-size: 1.2em; cursor: pointer;  opacity: 0;  transition: opacity 0.2s; ">🔍</span>
       </a>
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
         (d) Urban tree species distribution in DuPage County, Illinois.
@@ -212,6 +181,14 @@ permalink: /research/
 </style>
 
 
+<!-- Publications Section -->
+<h4 class="pub-heading">Publication</h4>
+<div class="publication-list">
+  Thapa, B.,Daring, L., Choi, D. H., Ardohain, C. M., Firoze, A., Aliaga, D. G., Hardiman, B. S., Fei, S. (2024). Application of multi-temporal satellite iamgery for urban tree species identification. <em>Urban Forestry & Urban Greening</em>, 98, 128409.
+  <a href="https://doi.org/10.1016/j.ufug.2024.128409" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
+</div>
 
 ---
 
@@ -224,20 +201,12 @@ permalink: /research/
    
 <div style="width 97%; text-align: left; margin: 20px auto;">
   <strong>
-    <em style="color: #555; font-size: 0.9em;">
+    <em style="color: #555; font-size: 0.8em;">
       Species distribution (total and relative basal area) was mapped for 1985 and 2005. Example outputs are shown below.
     </em>
   </strong>
 </div>
 
-<!-- Publications Section -->
-<h4 class="pub-heading">Publication</h4>
-<div class="publication-list">
-  Thapa, B., Wolter, P. T., Sturtevant, B. R., & Townsend, P. A. (2020). Reconstructing past forest composition and abundance by using archived Landsat and national forest inventory data. <em>International Journal of Remote Sensing</em>, 41(10), 4022-4056.
-  <a href="https://doi.org/10.1080/01431161.2019.1711245" target="_blank" rel="noopener noreferrer">
-    DOI
-  </a>
-</div>
 
 <!-- Figure Section -->
 <div style="display: flex; justify-content: space-between;  width: 80%; margin: 0 auto; align-items: stretch;  gap: 20px;  min-height: 600px; ">
@@ -301,6 +270,14 @@ permalink: /research/
   figure a:hover .zoom-icon {opacity: 1; }
 </style>
 
+<!-- Publications Section -->
+<h4 class="pub-heading">Publication</h4>
+<div class="publication-list">
+  Thapa, B., Wolter, P. T., Sturtevant, B. R., & Townsend, P. A. (2020). Reconstructing past forest composition and abundance by using archived Landsat and national forest inventory data. <em>International Journal of Remote Sensing</em>, 41(10), 4022-4056.
+  <a href="https://doi.org/10.1080/01431161.2019.1711245" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
+</div>
 
 
 {% include slider.html
