@@ -12,7 +12,7 @@ permalink: /research/
 </div>
 
 <!-- Adding text -->
-<div style=" width: 98%;  max-width: 1200px;   /* optional: prevents overly wide text on large screens */
+<div style=" width: 90%;  /* optional: prevents overly wide text on large screens */
   margin: 20px auto;  text-align: left;  color: #555;  font-size: 0.9em;  line-height: 1.5em;
   /*border: 1px dashed #ccc;   temporary to see width, remove later */  padding: 10px;">
   <strong><em>
