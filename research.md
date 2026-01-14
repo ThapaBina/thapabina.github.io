@@ -11,7 +11,7 @@ permalink: /research/
   </p>
 </div>
 
-<div style="width 90%; text-align: left; margin: 20px auto;">
+<div style="width 80%; text-align: left; margin: 20px auto;">
   <strong>
     <em style="color: #555; font-size: 0.8em;">
       The figures below show the global distribution of the study area and an example of FCI-purple detecting Jacaranda bloom in Africa.
@@ -199,7 +199,7 @@ permalink: /research/
   </p>
 </div>
    
-<div style="width 97%; text-align: left; margin: 20px auto;">
+<div style="width 80%; text-align: left; margin: 20px auto;">
   <strong>
     <em style="color: #555; font-size: 0.8em;">
       Species distribution (total and relative basal area) was mapped for 1985 and 2005. Example outputs are shown below.
