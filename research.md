@@ -128,7 +128,7 @@ permalink: /research/
 ## 🌲 Urban Species Mapping Using High-Resolution Multi-Temporal PlanetScope Imagery {#planet}
 <div class="project-text-box" style="width: 98%; margin: 0 auto;">
   <p>
-    Accurate tree inventories are critical for urban forest management but are challenging to obtain, as many urban trees are located on private property (e.g., backyards) and are therefore excluded from public inventories. Here, we examined the feasibility of tree species identification in a large, heterogeneous urban area (>850 km²) using multi-temporal PlanetScope imagery (3.2 m spatial resolution, multispectral) and inventory data from more than 20,000 ground observations within the urban forest of the Greater Chicago area. Our approach achieved an overall classification accuracy of 0.60 and 0.71 for 18 species and ten genera, respectively, with accuracies ranging from moderate to high for individual species (0.59–0.92) and genera (0.61–0.91). In particular, we identified key host tree species (<em>Fraxinus americana</em>, <em>F. pennsylvanica</em>, and <em>Acer saccharinum</em>) for two damaging invasive insects—emerald ash borer (EAB, <em>Agrilus planipennis</em>) and Asian longhorn beetle (ALB, <em>Anoplophora glabripennis</em>)—with accuracies exceeding 0.80. In addition, we demonstrated that including imagery from the autumn months (September–November), either in single-season models or combined multi-season models, improved identification accuracy for temperate deciduous trees. Furthermore, the superior classification performance of the support vector machine (SVM) compared to random forest (RF) and neural network (NN) approaches suggests that future work may benefit from evaluating multiple classifiers to identify methods that maximize species-level accuracy. Overall, our study demonstrates the potential of multi-temporal, high-resolution imagery for large-scale urban tree species classification and its applicability to urban forest management.
+    Accurate tree inventories are critical for urban forest management but are challenging to obtain, as many urban trees are located on private property (e.g., backyards) and are therefore excluded from public inventories. Here, we examined the feasibility of tree species identification in a large, heterogeneous urban area (>850 km²) using multi-temporal PlanetScope imagery (3.2 m spatial resolution, multispectral) and inventory data from more than 20,000 ground observations within the <strong>urban forest of the Greater Chicago area</strong>. Our approach achieved an <strong>overall classification accuracy of 0.60 and 0.71 for 18 species and ten genera</strong>, respectively, with accuracies ranging from moderate to high for individual species (0.59–0.92) and genera (0.61–0.91). In particular, we identified <strong>key host tree species</strong> (<em>Fraxinus americana</em>, <em>F. pennsylvanica</em>, and <em>Acer saccharinum</em>) for two damaging invasive insects—<strong>emerald ash borer (EAB, <em>Agrilus planipennis</em>) and Asian longhorn beetle (ALB, <em>Anoplophora glabripennis</em>)</strong>—with accuracies exceeding 0.80. In addition, we demonstrated that including imagery from the <strong>autumn months (September–November)</strong>, either in single-season models or combined multi-season models, improved identification accuracy for <strong>temperate deciduous trees</strong>. Furthermore, the superior classification performance of the support vector machine (SVM) compared to random forest (RF) and neural network (NN) approaches suggests that future work may benefit from evaluating multiple classifiers to identify methods that maximize species-level accuracy. Overall, our study demonstrates the potential of multi-temporal, high-resolution imagery for large-scale urban tree species classification and its applicability to urban forest management.
   </p>
 </div>
 
@@ -246,11 +246,82 @@ permalink: /research/
 ---
 
 ## 🌎 Regional-Scale Species Mapping with Landsat {#landsat}
-We mapped species at regional-scale using multi-temporal Landsat imagery.
-
-<div style="text-align: left; margin: 20px 0;">
-  <strong style="font-style: italic; color: #555;">Details are coming soon!</strong>
+<div class="project-text-box" style="width: 98%; margin: 0 auto;">
+  <p>
+    Effective modeling of forest susceptibility to defoliating insect outbreaks requires better understanding of outbreak dynamics, which includes detailed knowledge of the pre- and post-outbreak forest status as well as subsequent feedback mechanisms. In this paper, we strive to fill the forest status need by combining archived Landsat sensor data (pre- and post-outbreak) with different formats and dates of the <strong>U.S. Forest Service’s Forest Inventory and Analysis (FIA) data (periodic [1970s, 1990s] and annual [2003–2006])</strong>. Specifically, we explore the utility of these FIA ground data for calibrating models of forest species and type abundance for mapping past forest composition in the <strong>Border Lakes Ecoregion (BLE)</strong> of the Upper Midwest of the US. Model calibration results between Landsat reflectance and FIA ground data for both total forest basal area and <strong>balsam fir (<em>Abies balsamea</em>)</strong> relative basal area, a preferred <strong>host of the spruce budworm (SBW, <em>Choristoneura fumiferana</em>)</strong>, were poor to moderate (R<sup>2</sup><sub>adj</sub> = 0.39 and 0.48, respectively). Results for <strong>aspen (<em>Populus tremuloides</em>) and spruce (<em>Picea glauca</em> and <em>P. mariana</em>)</strong> abundance yielded substantially better accuracies (R<sup>2</sup><sub>adj</sub> = 0.64 and 0.78; RMSE = 15.56 and 10.65 m<sup>2</sup>·ha<sup>−1</sup>, respectively). Groupings of tree species into broadleaved and conifers substantially improved model calibration results (R<sup>2</sup><sub>adj</sub> range: 0.72–0.91), except for the SBW host group (<em>A. balsamea</em>, <em>P. glauca</em>, and <em>P. mariana</em>). Periodic FIA ground data from the early 1990s generated stronger models compared to other FIA–Landsat date combinations tested. A paired t-test of abundance differences between undisturbed forest from the older 1977 and 1990 periodic inventories was significant (p-value &lt; 0.0001), suggesting possible effects of variable FIA sampling protocol or ground plot positional accuracy through time. However, a similar paired t-test of abundance difference between periodic FIA (1990) and annual FIA (2003–2006) was not significant (p-value = 0.249). We posit four potential factors that may have contributed to weak Landsat–FIA calibration results for species abundance: (1) variation in FIA subplot arrangement and sampling protocols through time, (2) variability in species abundance and heterogeneity among FIA sampling across adjacent Landsat orbital paths, (3) understory species (balsam fir) that are largely hidden from remote detection, and (4) cloud cover and orbital phase mismatches preventing capture of key forest phenology aids. While past and present FIA sampling protocols were not specifically designed for integration with 30-meter satellite sensor data, careful pairing of FIA ground data (past or present) with Landsat sensor data can facilitate reasonable estimates of forest abundance for generalized forest types, and possibly forest species when heterogeneity is low. Nevertheless, we recommend that FIA subplot sampling protocols be augmented to include measurements of forest conditions that are more amenable to integration with 30-meter Landsat sensor data.
+  </p>
 </div>
+   
+<div style="text-align: left; margin: 20px 0;">
+  <strong>
+    <em style="color: #555; font-size: 0.9em;">
+      Species distribution (total and relative basal area) was mapped for 1985 and 2005. Example outputs are shown below.
+    </em>
+  </strong>
+</div>
+
+<!-- Figure Section -->
+<div style="display: flex; justify-content: space-between;  width: 80%; margin: 0 auto; align-items: stretch;  gap: 20px;  min-height: 600px; ">
+
+  <!-- Left panel -->
+  <div style="flex: 0 0 60%; display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+
+    <!-- Image C -->
+    <figure style="margin: 0; text-align: center; position: relative;">
+      <a href="{{ site.baseurl }}/assets/images/SpeciesAbundance_1985.jpg"
+         target="_blank"
+         style="display: block; position: relative; width: 100%; overflow: hidden;">
+        
+        <img src="{{ site.baseurl }}/assets/images/SpeciesAbundance_1985.jpg"
+             alt="Species distribution"
+             class="zoom-img">
+
+        <span class="zoom-icon">🔍</span>
+      </a>
+
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (c) Distribution of species abundance across Minnesota, USA, and adjacent Ontario, Canada, including major protected areas: Superior National Forest, Chippewa National Forest, Voyageurs National Park, and Quetico Provincial Park (Wilderness Class).
+      </figcaption>
+    </figure>
+
+  </div> <!-- ✅ CLOSE LEFT PANEL -->
+
+  <!-- Right panel -->
+  <div style="flex: 0 0 40%; display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+
+    <!-- Image D -->
+    <figure style="margin: 0; text-align: center; position: relative;">
+      <a href="{{ site.baseurl }}/assets/images/SBW_Host.jpg"
+         target="_blank"
+         style="display: block; position: relative; width: 100%; overflow: hidden;">
+        
+        <img src="{{ site.baseurl }}/assets/images/SBW_Host.jpg"
+             alt="SBW Host"
+             class="zoom-img">
+
+        <span class="zoom-icon">🔍</span>
+      </a>
+
+      <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
+        (d) Distribution of spruce budworm (SBW) host species (balsam fir, white spruce, black spruce) before and after the 1990s outbreak.
+      </figcaption>
+    </figure>
+
+  </div>
+
+</div>
+
+<!-- Hover & zoom effects -->
+<style>
+  .zoom-img { display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 5px; object-fit: contain; transition: transform 0.3s ease;}
+  figure a:hover .zoom-img {transform: scale(1.05); }
+
+  .zoom-icon { position: absolute; top: 8px;  right: 8px; background: rgba(0,0,0,0.6); color: white; padding: 4px 6px; border-radius: 3px; font-size: 1.2em;
+    cursor: pointer; opacity: 0; transition: opacity 0.2s; }
+
+  figure a:hover .zoom-icon {opacity: 1; }
+</style>
+
 
 
 {% include slider.html
