@@ -11,12 +11,13 @@ permalink: /research/
   </p>
 </div>
 
-<div style="width 80%; text-align: left; margin: 20px auto;">
-  <strong>
-    <em style="color: #555; font-size: 0.8em;">
-      The figures below show the global distribution of the study area and an example of FCI-purple detecting Jacaranda bloom in Africa.
-    </em>
-  </strong>
+<!-- Adding text -->
+<div style=" width: 90%;  max-width: 1200px;   /* optional: prevents overly wide text on large screens */
+  margin: 20px auto;  text-align: left;  color: #555;  font-size: 0.9em;  line-height: 1.5em;
+  /*border: 1px dashed #ccc;   temporary to see width, remove later */  padding: 10px;">
+  <strong><em>
+    The figures below show the global distribution of the study area and an example of FCI-purple detecting Jacaranda bloom in Africa.
+  </em></strong>
 </div>
 
 <!-- Container for the two panels -->
@@ -200,22 +201,12 @@ permalink: /research/
 </div>
 
 <!-- Species distribution text -->
-<div style=" width: 80%;  max-width: 1200px;   /* optional: prevents overly wide text on large screens */
+<div style=" width: 90%;  max-width: 1200px;   /* optional: prevents overly wide text on large screens */
   margin: 20px auto;  text-align: left;  color: #555;  font-size: 0.9em;  line-height: 1.5em;
-  border: 1px dashed #ccc;  /* temporary to see width, remove later */  padding: 10px;">
+  /*border: 1px dashed #ccc;   temporary to see width, remove later */  padding: 10px;">
   <strong><em>
     Species distribution (total and relative basal area) was mapped for 1985 and 2005. Example outputs are shown below.
   </em></strong>
-</div>
-
-
-   
-<div style="width 80%; text-align: left; margin: 20px auto;">
-  <strong>
-    <em style="color: #555; font-size: 0.8em;">
-      Species distribution (total and relative basal area) was mapped for 1985 and 2005. Example outputs are shown below.
-    </em>
-  </strong>
 </div>
 
 
