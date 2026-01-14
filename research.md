@@ -11,6 +11,23 @@ permalink: /research/
   </p>
 </div>
 
+<div style="width 97%; text-align: left; margin: 20px auto;">
+  <strong>
+    <em style="color: #555; font-size: 0.9em;">
+      The figures below show the global distribution of the study area and an example of FCI-purple detecting Jacaranda bloom in Africa.
+    </em>
+  </strong>
+</div>
+
+<!-- Publications Section -->
+<h4 class="pub-heading">Publication</h4>
+<div class="publication-list">
+  Thapa, B., Hardiman, B. S., & Fei, S. (2025). Flower color index for detecting and monitoring warm-colored flowering across scales. <em>International Journal of Applied Earth Observation and Geoinformation</em>, 145, 104978.
+  <a href="https://doi.org/10.1016/j.jag.2025.104978" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
+</div>
+
 
 <!-- Container for the two panels -->
 <div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; gap: 20px; align-items: stretch; padding: 0;">
@@ -20,15 +37,7 @@ permalink: /research/
     border: 1px solid #ccc; border-radius: 5px; padding: 0; /* Removed padding to reduce top/bottom space */  box-sizing: border-box;  position: relative; ">
 
     <!-- Image wrapper -->
-    <div style="
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      margin: 0;
-      padding: 0;
-    ">
+    <div style=" width: 100%; display: flex; justify-content: center;  align-items: center; position: relative;  margin: 0;  padding: 0; ">
       <!-- Image link -->
       <a href="{{ site.baseurl }}/assets/images/FCI_StudyArea.png" target="_blank"
          style="display: block; position: relative; width: 100%; margin: 0; padding: 0;">
@@ -48,15 +57,8 @@ permalink: /research/
     </div>
 
     <!-- Caption directly below image -->
-    <figcaption style="
-      font-size: 0.9em;
-      font-style: italic;
-      line-height: 1.3;
-      justify-content: center;
-      margin: 2px 0 0 0; /* very small top margin to reduce gap */
-      padding: 0;
-    ">
-      Geographic locations of study areas across the globe spanning northern and southern hemispheres (United States, a biodiversity hotspot from North America; the Atlantic Forest of Brazil, a biodiversity hotspot, and Paraguay from South America; Holland, the largest tulip bulb producer in the world from Europe; Nepal, a biodiversity hotspot from Asia; urban forests from Africa and Australia) and species (California’s wildflowers, Pleroma, pink trumpet, tulip, rhododendron, and jacaranda) used in the study and spectra of respective flowers. Flowering sample polygons were used to extract flower spectral reflectance across bands corresponding to satellite imagery acquired during the bloom; the number and types of bands (coastal blue [C], blue [B], green [G], red [R], near-infrared [NIR], shortwave infrared 1 [S1], and shortwave infrared 2 [S2]) varied among satellite sensors (SkySat [0.5 m; 4 bands], PlanetScope [3 m; 4 bands], and Landsat [30 m; 7 bands]). Each line shows the mean surface reflectance ± one standard deviation across spectral bands. Dashed, solid, and dotted lines represent SkySat, PlanetScope, and Landsat data.
+    <figcaption style=" font-size: 0.9em; font-style: italic; line-height: 1.3; justify-content: center; margin: 2px 0 0 0; /* very small top margin to reduce gap */ padding: 0; ">
+        Figure: Geographic locations of study areas across the globe spanning northern and southern hemispheres (United States, a biodiversity hotspot from North America; the Atlantic Forest of Brazil, a biodiversity hotspot, and Paraguay from South America; Holland, the largest tulip bulb producer in the world from Europe; Nepal, a biodiversity hotspot from Asia; urban forests from Africa and Australia) and species (California’s wildflowers, Pleroma, pink trumpet, tulip, rhododendron, and jacaranda) used in the study and spectra of respective flowers. Flowering sample polygons were used to extract flower spectral reflectance across bands corresponding to satellite imagery acquired during the bloom; the number and types of bands (coastal blue [C], blue [B], green [G], red [R], near-infrared [NIR], shortwave infrared 1 [S1], and shortwave infrared 2 [S2]) varied among satellite sensors (SkySat [0.5 m; 4 bands], PlanetScope [3 m; 4 bands], and Landsat [30 m; 7 bands]). Each line shows the mean surface reflectance ± one standard deviation across spectral bands. Dashed, solid, and dotted lines represent SkySat, PlanetScope, and Landsat data.
     </figcaption>
 
   </figure>
@@ -66,16 +68,7 @@ permalink: /research/
     border: 1px solid #ccc; border-radius: 5px; padding: 0; /* Removed padding to reduce white space */ box-sizing: border-box; ">
 
     <!-- Slider wrapper -->
-    <div style="
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      position: relative;
-    ">
+    <div style=" flex: 1; display: flex;  justify-content: center;  align-items: center;  width: 100%;  margin: 0;  padding: 0; position: relative; ">
       {% include slider.html
         id="fci"
         before="Jacaranda_RGB.jpg"
@@ -86,14 +79,8 @@ permalink: /research/
     </div>
 
     <!-- Caption -->
-    <figcaption style="
-      font-size: 0.9em;
-      font-style: italic;
-      line-height: 1.3;
-      margin: 2px 0 0 0; /* reduce space between slider and caption */
-      padding: 0;
-    ">
-      Visualization of Jacaranda bloom using the Flower Color Index (FCI)-Purple applied to RGB imagery.
+    <figcaption style=" font-size: 0.9em; font-style: italic; line-height: 1.3; margin: 2px 0 0 0; /* reduce space between slider and caption */  padding: 0; ">
+        Figure: Visualization of Jacaranda bloom using the Flower Color Index (FCI)-Purple applied to RGB imagery.
     </figcaption>
 
   </figure>
@@ -112,15 +99,6 @@ permalink: /research/
   }
 </style>
 
-<!-- Publications Section -->
-<h4 class="pub-heading">Publication</h4>
-<div class="publication-list">
-  Thapa, B., Hardiman, B. S., & Fei, S. (2025). Flower color index for detecting and monitoring warm-colored flowering across scales. <em>International Journal of Applied Earth Observation and Geoinformation</em>, 145, 104978.
-  <a href="https://doi.org/10.1016/j.jag.2025.104978" target="_blank" rel="noopener noreferrer">
-    DOI
-  </a>
-</div>
-
 
 
 ---
@@ -132,16 +110,17 @@ permalink: /research/
   </p>
 </div>
 
+<!-- Publications Section -->
+<h4 class="pub-heading">Publication</h4>
+<div class="publication-list">
+  Thapa, B.,Daring, L., Choi, D. H., Ardohain, C. M., Firoze, A., Aliaga, D. G., Hardiman, B. S., Fei, S. (2024). Application of multi-temporal satellite iamgery for urban tree species identification. <em>Urban Forestry & Urban Greening</em>, 98, 128409.
+  <a href="https://doi.org/10.1016/j.ufug.2024.128409" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
+</div>
+
 <!-- Figure Section -->
-<div style="
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-  align-items: stretch; /* stretch panels to equal height */
-  gap: 20px;
-  min-height: 600px; /* optional: ensures a minimum height */
-">
+<div style="display: flex; justify-content: space-between; width: 80%; margin: 0 auto; align-items: stretch; /* stretch panels to equal height */ gap: 20px; min-height: 600px; /* optional: ensures a minimum height */">
 
   <!-- Left panel: two stacked static images -->
   <div style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: center; gap: 20px;">
@@ -233,15 +212,6 @@ permalink: /research/
 </style>
 
 
-<!-- Publications Section -->
-<h4 class="pub-heading">Publication</h4>
-<div class="publication-list">
-  Thapa, B.,Daring, L., Choi, D. H., Ardohain, C. M., Firoze, A., Aliaga, D. G., Hardiman, B. S., Fei, S. (2024). Application of multi-temporal satellite iamgery for urban tree species identification. <em>Urban Forestry & Urban Greening</em>, 98, 128409.
-  <a href="https://doi.org/10.1016/j.ufug.2024.128409" target="_blank" rel="noopener noreferrer">
-    DOI
-  </a>
-</div>
-
 
 ---
 
@@ -252,12 +222,21 @@ permalink: /research/
   </p>
 </div>
    
-<div style="text-align: left; margin: 20px 0;">
+<div style="width 97%; text-align: left; margin: 20px auto;">
   <strong>
     <em style="color: #555; font-size: 0.9em;">
       Species distribution (total and relative basal area) was mapped for 1985 and 2005. Example outputs are shown below.
     </em>
   </strong>
+</div>
+
+<!-- Publications Section -->
+<h4 class="pub-heading">Publication</h4>
+<div class="publication-list">
+  Thapa, B., Wolter, P. T., Sturtevant, B. R., & Townsend, P. A. (2020). Reconstructing past forest composition and abundance by using archived Landsat and national forest inventory data. <em>International Journal of Remote Sensing</em>, 41(10), 4022-4056.
+  <a href="https://doi.org/10.1080/01431161.2019.1711245" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
 </div>
 
 <!-- Figure Section -->
@@ -280,7 +259,7 @@ permalink: /research/
       </a>
 
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
-        (c) Distribution of species abundance across Minnesota, USA, and adjacent Ontario, Canada, including major protected areas: Superior National Forest, Chippewa National Forest, Voyageurs National Park, and Quetico Provincial Park (Wilderness Class).
+        (a) Distribution of species abundance across Minnesota, USA, and adjacent Ontario, Canada, including major protected areas: Superior National Forest, Chippewa National Forest, Voyageurs National Park, and Quetico Provincial Park (Wilderness Class).
       </figcaption>
     </figure>
 
@@ -303,7 +282,7 @@ permalink: /research/
       </a>
 
       <figcaption style="font-size: 0.9em; font-style: italic; margin-top: 4px;">
-        (d) Distribution of spruce budworm (SBW) host species (balsam fir, white spruce, black spruce) before and after the 1990s outbreak.
+        (b) Distribution of spruce budworm (SBW) host species (balsam fir, white spruce, black spruce) before and after the 1990s outbreak.
       </figcaption>
     </figure>
 
