@@ -4,7 +4,7 @@ title: Research Projects
 permalink: /research/
 ---
 
-<h3>🌸 Flower Color Index (FCI)</h3>
+<h3>🌸 Flower Color Index (FCI): A Novel Remote Sensing Index for Detecting and Monitoring Flowering </h3>
 <div class="project-text-box" style="width:98%; margin:0 auto;">
   <p>
     Flowers provide substantial ecological and economic benefits, yet their detection and monitoring using remote sensing remain challenging and underexplored. In this study, we introduce the <strong>Flower Color Index (FCI)</strong>, which leverages remote sensing bands sensitive to major flower color pigments—<strong>carotenoids, anthocyanins, and betalains</strong>—to detect four dominant warm flower colors: <strong>red, pink, purple, and yellow</strong>. These pigments primarily influence reflectance in the visible spectrum, enabling FCI to be derived from <strong>widely available blue (B), green (G), red (R), and near-infrared (NIR) bands</strong> across platforms ranging from UAVs to satellites. We demonstrate the application of FCI across species representing diverse vegetation forms (herbaceous plants, shrubs, and trees) and across multiple study locations—including global biodiversity hotspots—using imagery at multiple spatial resolutions (<strong>SkySat, 0.5 m; PlanetScope, 3 m; and Landsat, 30 m</strong>). Results show that FCI effectively detects and quantifies flowering events, supporting applications in ecology, agriculture, and ecotourism. Its simple formulation enables rapid computation and consistent performance across environments, spatial scales, and background conditions.
@@ -13,6 +13,14 @@ permalink: /research/
 
 <!-- Adding text -->
 <div style=" width: 90%;  /* optional: prevents overly wide text on large screens */
+  margin: 20px auto;  text-align: left;  color: #555;  font-size: 0.9em;  line-height: 1.5em;
+  /*border: 1px dashed #ccc;   temporary to see width, remove later */  padding: 10px;">
+  <strong><em>
+    The figures below show the global distribution of the study area and an example of FCI-purple detecting Jacaranda bloom in Africa.
+  </em></strong>
+</div>
+
+<div style=" width: 95%;  /* optional: prevents overly wide text on large screens */
   margin: 20px auto;  text-align: left;  color: #555;  font-size: 0.9em;  line-height: 1.5em;
   /*border: 1px dashed #ccc;   temporary to see width, remove later */  padding: 10px;">
   <strong><em>
@@ -209,6 +217,13 @@ permalink: /research/
   </em></strong>
 </div>
 
+<div style=" width: 95%;  /* optional: prevents overly wide text on large screens */
+  margin: 20px auto;  text-align: left;  color: #555;  font-size: 0.9em;  line-height: 1.5em;
+  /*border: 1px dashed #ccc;   temporary to see width, remove later */  padding: 10px;">
+  <strong><em>
+    Species distribution (total and relative basal area) was mapped for 1985 and 2005. Example outputs are shown below.
+  </em></strong>
+</div>
 
 <!-- Figure Section -->
 <div style="display: flex; justify-content: space-between;  width: 80%; margin: 0 auto; align-items: stretch;  gap: 20px;  min-height: 600px; ">
