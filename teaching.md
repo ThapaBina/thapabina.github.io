@@ -14,11 +14,11 @@ permalink: /teaching/
     
     <ul>
       <li><strong>Big Data, AI, and Forests (FNR 57400)</strong>, Graduate course
-      <p style="margin:0:">
+      <div style="margin: 0; line-height: 1.1;">
         Teaching Assistant — Spring 2026
-      </p>
+      </div>
       <p style="margin:0; max-width: 650px;">
-        Assisted students with HPC-based data analysis; supported lectures and labs; graded reports and exams.
+        Assists students with HPC-based data analysis; supports lectures and labs; grades reports and exams.
       </p></li>
       
       <li><strong>Natural Resources Measurement (FNR 35300)</strong>, Undergraduate course  
