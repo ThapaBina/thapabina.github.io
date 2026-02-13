@@ -15,7 +15,7 @@ permalink: /teaching/
   Instructor — Spring 2024, 2025  
   Developed course materials and integrated LiDAR; taught lectures and labs; supervised and coordinated TAs; managed assessment and student communication.  
 
-  <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="max-width:450px; display:block; margin:15px auto;">
+  <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="max-width:550px; float:left; margin:0 15px 15px 0; border-radius:6px;">
 
 ---
 
