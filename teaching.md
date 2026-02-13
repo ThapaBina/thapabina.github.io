@@ -29,7 +29,7 @@ permalink: /teaching/
   </div>
 
   <div style="flex: 0 1 35%; max-width: 320px;">
-    <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="width: 550px; border-radius: 6px;">
+    <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="width: 450px; border-radius: 6px;">
   </div>
 
 </div>
