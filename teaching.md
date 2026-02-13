@@ -6,9 +6,9 @@ permalink: /teaching/
 
 ### Teaching Experiences
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px; max-width: 900px;">
 
-  <div style="flex: 1; min-width: 0;">
+  <div style="flex: 0 1 60%;">
   
   <strong>Purdue University</strong>, West Lafayette, IN  
   
@@ -16,7 +16,7 @@ permalink: /teaching/
   <li><strong>Big Data, AI, and Forests (FNR 57400)</strong>, Graduate course  
   Teaching Assistant — Spring 2026  
   <p style="margin:0; max-width: 650px;">
-    Assisted students with HPC-based data analysis; supported lectures and labs; graded reports and exams.
+    Assists students with HPC-based data analysis; supports lectures and labs; grades reports and exams.
   </p></li>
   
   <li><strong>Natural Resources Measurement (FNR 35300)</strong>, Undergraduate course  
@@ -28,8 +28,8 @@ permalink: /teaching/
   
   </div>
 
-  <div style="flex-shrink: 0; max-width: 320px;">
-    <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="width: 300px; border-radius: 6px;">
+  <div style="flex: 0 1 35%; max-width: 320px;">
+    <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="width: 550px; border-radius: 6px;">
   </div>
 
 </div>
