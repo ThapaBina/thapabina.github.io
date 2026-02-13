@@ -13,8 +13,10 @@ permalink: /teaching/
     <strong>Purdue University</strong>, West Lafayette, IN  
     
     <ul>
-      <li><strong>Big Data, AI, and Forests (FNR 57400)</strong>, Graduate course  
-      Teaching Assistant — Spring 2026  
+      <li><strong>Big Data, AI, and Forests (FNR 57400)</strong>, Graduate course
+      <p style="margin:0:">
+        Teaching Assistant — Spring 2026
+      </p>
       <p style="margin:0; max-width: 650px;">
         Assisted students with HPC-based data analysis; supported lectures and labs; graded reports and exams.
       </p></li>
