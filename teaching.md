@@ -13,9 +13,9 @@ permalink: /teaching/
 
 - **Natural Resources Measurement (FNR 35300)**, Undergraduate course  
   Instructor — Spring 2024, 2025  
-  Prepared course materials; integrated LiDAR data into curriculum; taught lectures and labs; developed grading rubrics and exams; trained and coordinated TAs; managed course communication and assessment.  
+  Developed course materials and integrated LiDAR; taught lectures and labs; supervised and coordinated TAs; managed assessment and student communication.  
 
-  <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="max-width:200px; margin:10px 0;">
+  <img src="/assets/images/FORS.png" alt="FNR 35300 Teaching Photo" style="max-width:450px; display:block; margin:15px auto;">
 
 ---
 
@@ -35,7 +35,7 @@ permalink: /teaching/
 
 - **Introduction to Environmental Science Lab (EVR 1001L)**, Undergraduate course  
   Adjunct Instructor / Teaching Assistant — Fall 2011–Summer 2014  
-  Designed and delivered laboratory lectures and quizzes; graded assessments; held office hours; mentored students in laboratory report writing.
+  Designed and delivered laboratory lectures and quizzes; graded assignments and exams; held regular office hours; mentored students in scientific laboratory report writing.
 
 
 
